@@ -1,27 +1,34 @@
-import React, { Suspense, lazy } from 'react'
-import { BrowserRouter, Navigate, Route, Routes, useParams } from 'react-router-dom'
-import Shell from './components/Shell'
-import { AppStateProvider, useAppState } from './state/AppState'
+import React, { Suspense, lazy } from "react";
+import {
+  BrowserRouter,
+  Navigate,
+  Route,
+  Routes,
+  useParams,
+} from "react-router-dom";
+import Shell from "./components/Shell";
+import { AppStateProvider, useAppState } from "./state/AppState";
 
-const Home = lazy(() => import('./pages/Home'))
-const Login = lazy(() => import('./pages/Login'))
-const Signup = lazy(() => import('./pages/Signup'))
+const Home = lazy(() => import("./pages/Home"));
+const Login = lazy(() => import("./pages/Login"));
+const Signup = lazy(() => import("./pages/Signup"));
 
-const Dashboard = lazy(() => import('./pages/Dashboard'))
-const Lessons = lazy(() => import('./pages/Lessons'))
-const Lesson = lazy(() => import('./pages/Lesson'))
-const Quizzes = lazy(() => import('./pages/Quizzes'))
-const Vocabulary = lazy(() => import('./pages/Vocabulary'))
-const DailyChallenge = lazy(() => import('./pages/DailyChallenge'))
+const Dashboard = lazy(() => import("./pages/Dashboard"));
+const Lessons = lazy(() => import("./pages/Lessons"));
+const Lesson = lazy(() => import("./pages/Lesson"));
+const Quizzes = lazy(() => import("./pages/Quizzes"));
+const Vocabulary = lazy(() => import("./pages/Vocabulary"));
+const DailyChallenge = lazy(() => import("./pages/DailyChallenge"));
 
-const Blog = lazy(() => import('./pages/Blog'))
-const Worksheets = lazy(() => import('./pages/Worksheets'))
-const Tips = lazy(() => import('./pages/Tips'))
-const NotFound = lazy(() => import('./pages/NotFound'))
+const Blog = lazy(() => import("./pages/Blog"));
+const Worksheets = lazy(() => import("./pages/Worksheets"));
+const Tips = lazy(() => import("./pages/Tips"));
+const ContactUs = lazy(() => import("./pages/ContactUs"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 function LessonRoute() {
-  const { lessonId } = useParams()
-  return <Lesson key={lessonId} />
+  const { lessonId } = useParams();
+  return <Lesson key={lessonId} />;
 }
 
 function RouteLoading() {
@@ -31,13 +38,13 @@ function RouteLoading() {
         Loading…
       </div>
     </div>
-  )
+  );
 }
 
 function Authed({ children }: Readonly<{ children: React.ReactNode }>) {
-  const { state } = useAppState()
-  if (!state.session.userId) return <Navigate to="/login" replace />
-  return children
+  const { state } = useAppState();
+  if (!state.session.userId) return <Navigate to="/login" replace />;
+  return children;
 }
 
 export default function App() {
@@ -99,6 +106,14 @@ export default function App() {
                   </Authed>
                 }
               />
+              <Route
+                path="/contact"
+                element={
+                  <Authed>
+                    <ContactUs />
+                  </Authed>
+                }
+              />
 
               <Route path="/blog" element={<Blog />} />
               <Route path="/worksheets" element={<Worksheets />} />
@@ -110,6 +125,5 @@ export default function App() {
         </Shell>
       </BrowserRouter>
     </AppStateProvider>
-  )
+  );
 }
-
