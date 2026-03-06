@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { Button, Card, Input, SecondaryButton } from "../components/ui";
 import { useAppState } from "../state/AppState";
-import { t } from "../lib/i18n";
 
 export default function ContactUs() {
-  const navigate = useNavigate();
   const { language } = useAppState();
 
   useEffect(() => {
