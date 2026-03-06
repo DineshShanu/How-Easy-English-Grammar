@@ -1,0 +1,49 @@
+@config "../tailwind.config.ts";
+@import "tailwindcss";
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+button:not(:disabled):hover {
+  cursor: pointer;
+}
+
+.glass {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.dark .glass {
+  background: rgba(2, 6, 23, 0.55);
+}
+
+.lesson-card:hover {
+  transform: translateY(-5px);
+}
+
+.progress-bar {
+  transition: width 0.3s ease;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}

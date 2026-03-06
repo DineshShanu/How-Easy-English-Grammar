@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>howeasy</title>
+    <script>
+      (function () {
+        try {
+          var raw = localStorage.getItem('howeasy:state:v1')
+          if (!raw) return
+          var state = JSON.parse(raw)
+          var theme = state && state.preferences && state.preferences.theme
+          if (theme === 'dark') document.documentElement.classList.add('dark')
+          else document.documentElement.classList.remove('dark')
+        } catch (e) {
+          document.documentElement.classList.remove('dark')
+          console.warn('[HowEasy] Theme preload failed', e)
+        }
+      })()
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

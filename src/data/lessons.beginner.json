@@ -1,0 +1,596 @@
+[
+  {
+    "id": "b-01-alphabet",
+    "level": "beginner",
+    "topic": { "en": "English Alphabet", "hi": "अंग्रेज़ी वर्णमाला" },
+    "explanation": {
+      "en": "The English alphabet has 26 letters (A–Z). Learn order, uppercase/lowercase, and basic spelling.",
+      "hi": "अंग्रेज़ी वर्णमाला में 26 अक्षर (A–Z) होते हैं। क्रम, बड़े/छोटे अक्षर और स्पेलिंग की बेसिक समझ बनाएं।"
+    },
+    "examples": [
+      { "en": "A comes before B.", "hi": "A, B से पहले आता है।" },
+      { "en": "C comes after B.", "hi": "C, B के बाद आता है।" },
+      { "en": "Uppercase: D", "hi": "बड़ा अक्षर: D" },
+      { "en": "Lowercase: d", "hi": "छोटा अक्षर: d" },
+      { "en": "The last letter is Z.", "hi": "आख़िरी अक्षर Z है।" }
+    ],
+    "illustrationKey": "alphabet",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill the missing letter: A, B, __, D", "promptHi": "खाली अक्षर भरें: A, B, __, D", "answer": "C" },
+      { "id": "p2", "promptEn": "Write the lowercase of 'G'", "promptHi": "'G' का छोटा अक्षर लिखें", "answer": "g" },
+      { "id": "p3", "promptEn": "How many letters are there in the English alphabet?", "promptHi": "अंग्रेज़ी वर्णमाला में कितने अक्षर होते हैं?", "answer": "26" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which letter comes after E?",
+        "questionHi": "E के बाद कौन सा अक्षर आता है?",
+        "optionsEn": ["D", "F", "G", "H"],
+        "optionsHi": ["D", "F", "G", "H"],
+        "correctIndex": 1,
+        "explanationEn": "Alphabet order: E, F, G…",
+        "explanationHi": "वर्णमाला क्रम: E, F, G…"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Which is a lowercase letter?",
+        "questionHi": "इनमें से छोटा अक्षर कौन सा है?",
+        "optionsEn": ["M", "N", "p", "Q"],
+        "optionsHi": ["M", "N", "p", "Q"],
+        "correctIndex": 2,
+        "explanationEn": "Lowercase letters look smaller: p, q, r…",
+        "explanationHi": "छोटे अक्षर ऐसे होते हैं: p, q, r…"
+      },
+      {
+        "id": "q3",
+        "questionEn": "What is the last letter of the English alphabet?",
+        "questionHi": "अंग्रेज़ी वर्णमाला का अंतिम अक्षर कौन सा है?",
+        "optionsEn": ["X", "Y", "Z", "W"],
+        "optionsHi": ["X", "Y", "Z", "W"],
+        "correctIndex": 2,
+        "explanationEn": "A–Z ends with Z.",
+        "explanationHi": "A–Z का अंत Z से होता है।"
+      }
+    ]
+  },
+  {
+    "id": "b-02-parts-of-speech",
+    "level": "beginner",
+    "topic": { "en": "Parts of Speech", "hi": "शब्द-भेद (Parts of Speech)" },
+    "explanation": {
+      "en": "Parts of speech are categories of words: noun, pronoun, verb, adjective, adverb, preposition, conjunction, interjection.",
+      "hi": "शब्द-भेद शब्दों की श्रेणियाँ हैं: संज्ञा, सर्वनाम, क्रिया, विशेषण, क्रिया-विशेषण, संबंधबोधक, समुच्चयबोधक, विस्मयादिबोधक।"
+    },
+    "examples": [
+      { "en": "Ram (noun) runs (verb).", "hi": "राम (संज्ञा) दौड़ता है (क्रिया)।" },
+      { "en": "She (pronoun) is happy.", "hi": "वह (सर्वनाम) खुश है।" },
+      { "en": "A red (adjective) car.", "hi": "एक लाल (विशेषण) कार।" },
+      { "en": "He speaks softly (adverb).", "hi": "वह धीरे (क्रिया-विशेषण) बोलता है।" },
+      { "en": "Wow! (interjection)", "hi": "वाह! (विस्मयादिबोधक)" }
+    ],
+    "illustrationKey": "parts-of-speech",
+    "practice": [
+      { "id": "p1", "promptEn": "Identify the part of speech: 'Delhi'", "promptHi": "'Delhi' का शब्द-भेद बताइए", "answer": "noun" },
+      { "id": "p2", "promptEn": "Identify the part of speech: 'quickly'", "promptHi": "'quickly' का शब्द-भेद बताइए", "answer": "adverb" },
+      { "id": "p3", "promptEn": "Identify the part of speech: 'and'", "promptHi": "'and' का शब्द-भेद बताइए", "answer": "conjunction" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which word is a verb?",
+        "questionHi": "कौन सा शब्द क्रिया है?",
+        "optionsEn": ["book", "run", "blue", "very"],
+        "optionsHi": ["किताब", "दौड़ना", "नीला", "बहुत"],
+        "correctIndex": 1,
+        "explanationEn": "A verb shows action: run, eat, write…",
+        "explanationHi": "क्रिया कार्य/काम बताती है: run, eat, write…"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Which word is a pronoun?",
+        "questionHi": "कौन सा शब्द सर्वनाम है?",
+        "optionsEn": ["he", "city", "fast", "under"],
+        "optionsHi": ["वह (he)", "शहर", "तेज़", "के नीचे"],
+        "correctIndex": 0,
+        "explanationEn": "Pronouns replace nouns: he, she, it, they…",
+        "explanationHi": "सर्वनाम संज्ञा की जगह आते हैं: he, she, it, they…"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Which word is a preposition?",
+        "questionHi": "कौन सा शब्द संबंधबोधक (preposition) है?",
+        "optionsEn": ["in", "happy", "teacher", "jump"],
+        "optionsHi": ["में (in)", "खुश", "शिक्षक", "कूदना"],
+        "correctIndex": 0,
+        "explanationEn": "Prepositions show relation: in, on, under, at…",
+        "explanationHi": "Preposition संबंध बताता है: in, on, under, at…"
+      }
+    ]
+  },
+  {
+    "id": "b-03-noun",
+    "level": "beginner",
+    "topic": { "en": "Noun", "hi": "संज्ञा (Noun)" },
+    "explanation": {
+      "en": "A noun is the name of a person, place, thing, or idea.",
+      "hi": "संज्ञा व्यक्ति, स्थान, वस्तु या विचार के नाम को कहते हैं।"
+    },
+    "examples": [
+      { "en": "Ravi is a boy.", "hi": "रवि एक लड़का है।" },
+      { "en": "Delhi is a city.", "hi": "दिल्ली एक शहर है।" },
+      { "en": "This is a table.", "hi": "यह एक मेज़ है।" },
+      { "en": "Honesty is important.", "hi": "ईमानदारी महत्वपूर्ण है।" },
+      { "en": "The cat is sleeping.", "hi": "बिल्ली सो रही है।" }
+    ],
+    "illustrationKey": "noun",
+    "practice": [
+      { "id": "p1", "promptEn": "Write a noun from this sentence: 'The teacher is kind.'", "promptHi": "इस वाक्य से एक संज्ञा लिखें: 'The teacher is kind.'", "answer": "teacher" },
+      { "id": "p2", "promptEn": "Is 'beauty' a noun? (yes/no)", "promptHi": "क्या 'beauty' संज्ञा है? (yes/no)", "answer": "yes" },
+      { "id": "p3", "promptEn": "Write the noun: (person) 'doctor' or 'quickly'", "promptHi": "संज्ञा चुनें: 'doctor' या 'quickly'", "answer": "doctor" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which word is a noun?",
+        "questionHi": "कौन सा शब्द संज्ञा है?",
+        "optionsEn": ["run", "happy", "school", "quickly"],
+        "optionsHi": ["दौड़ना", "खुश", "स्कूल", "जल्दी"],
+        "correctIndex": 2,
+        "explanationEn": "School is a place name, so it’s a noun.",
+        "explanationHi": "School एक स्थान का नाम है, इसलिए यह संज्ञा है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "A noun can name a ____.",
+        "questionHi": "संज्ञा ____ का नाम हो सकती है।",
+        "optionsEn": ["person", "place", "thing", "all of these"],
+        "optionsHi": ["व्यक्ति", "स्थान", "वस्तु", "ये सभी"],
+        "correctIndex": 3,
+        "explanationEn": "Nouns can name person/place/thing/idea.",
+        "explanationHi": "संज्ञा व्यक्ति/स्थान/वस्तु/विचार का नाम हो सकती है।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Which sentence has a noun?",
+        "questionHi": "किस वाक्य में संज्ञा है?",
+        "optionsEn": ["Very quickly.", "Blue and green.", "I live in India.", "So fast!"],
+        "optionsHi": ["बहुत जल्दी।", "नीला और हरा।", "मैं भारत में रहता/रहती हूँ।", "बहुत तेज़!"],
+        "correctIndex": 2,
+        "explanationEn": "India is a proper noun (country name).",
+        "explanationHi": "India देश का नाम है, यह proper noun है।"
+      }
+    ]
+  },
+  {
+    "id": "b-04-pronoun",
+    "level": "beginner",
+    "topic": { "en": "Pronoun", "hi": "सर्वनाम (Pronoun)" },
+    "explanation": {
+      "en": "A pronoun replaces a noun (he, she, it, they, we, I, you).",
+      "hi": "सर्वनाम संज्ञा की जगह आता है (he, she, it, they, we, I, you)।"
+    },
+    "examples": [
+      { "en": "Riya is here. She is happy.", "hi": "रिया यहाँ है। वह खुश है।" },
+      { "en": "The dog is small. It is cute.", "hi": "कुत्ता छोटा है। वह प्यारा है।" },
+      { "en": "Aman and I are friends. We study together.", "hi": "अमन और मैं दोस्त हैं। हम साथ पढ़ते हैं।" },
+      { "en": "You are my teacher.", "hi": "आप मेरे शिक्षक हैं।" },
+      { "en": "They play cricket.", "hi": "वे क्रिकेट खेलते हैं।" }
+    ],
+    "illustrationKey": "pronoun",
+    "practice": [
+      { "id": "p1", "promptEn": "Replace 'Rahul' with a pronoun: 'Rahul is smart.'", "promptHi": "'Rahul' की जगह सर्वनाम लिखें: 'Rahul is smart.'", "answer": "he" },
+      { "id": "p2", "promptEn": "Replace 'the book' with a pronoun: 'The book is new.'", "promptHi": "'the book' की जगह सर्वनाम लिखें: 'The book is new.'", "answer": "it" },
+      { "id": "p3", "promptEn": "Replace 'Sita and Geeta' with a pronoun", "promptHi": "'Sita and Geeta' की जगह सर्वनाम लिखें", "answer": "they" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which word is a pronoun?",
+        "questionHi": "कौन सा शब्द सर्वनाम है?",
+        "optionsEn": ["teacher", "she", "beautiful", "near"],
+        "optionsHi": ["शिक्षक", "वह (she)", "सुंदर", "पास"],
+        "correctIndex": 1,
+        "explanationEn": "She is a pronoun; it replaces a noun.",
+        "explanationHi": "She सर्वनाम है; यह संज्ञा की जगह आता है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Pronouns are used to avoid repeating a ____.",
+        "questionHi": "सर्वनाम ____ को बार-बार दोहराने से बचाते हैं।",
+        "optionsEn": ["verb", "noun", "adjective", "adverb"],
+        "optionsHi": ["क्रिया", "संज्ञा", "विशेषण", "क्रिया-विशेषण"],
+        "correctIndex": 1,
+        "explanationEn": "Pronouns replace nouns.",
+        "explanationHi": "सर्वनाम संज्ञा की जगह आते हैं।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Choose the correct pronoun for 'Ravi and Mohan'.",
+        "questionHi": "'Ravi and Mohan' के लिए सही सर्वनाम चुनें।",
+        "optionsEn": ["he", "she", "they", "it"],
+        "optionsHi": ["he", "she", "they", "it"],
+        "correctIndex": 2,
+        "explanationEn": "Two or more people → they.",
+        "explanationHi": "दो या अधिक लोग → they।"
+      }
+    ]
+  },
+  {
+    "id": "b-05-adjective",
+    "level": "beginner",
+    "topic": { "en": "Adjective", "hi": "विशेषण (Adjective)" },
+    "explanation": {
+      "en": "An adjective describes a noun or pronoun (what kind, how many, which one).",
+      "hi": "विशेषण संज्ञा/सर्वनाम का वर्णन करता है (कैसा, कितना, कौन सा)।"
+    },
+    "examples": [
+      { "en": "She has a red bag.", "hi": "उसके पास लाल बैग है।" },
+      { "en": "It is a big house.", "hi": "यह बड़ा घर है।" },
+      { "en": "Three students are absent.", "hi": "तीन छात्र अनुपस्थित हैं।" },
+      { "en": "This book is interesting.", "hi": "यह किताब दिलचस्प है।" },
+      { "en": "He is an honest man.", "hi": "वह ईमानदार आदमी है।" }
+    ],
+    "illustrationKey": "adjective",
+    "practice": [
+      { "id": "p1", "promptEn": "Pick an adjective: 'blue' or 'run'", "promptHi": "विशेषण चुनें: 'blue' या 'run'", "answer": "blue" },
+      { "id": "p2", "promptEn": "Fill in an adjective: It is a ____ day. (hot/cat)", "promptHi": "विशेषण भरें: It is a ____ day. (hot/cat)", "answer": "hot" },
+      { "id": "p3", "promptEn": "In 'a tall boy', write the adjective", "promptHi": "'a tall boy' में विशेषण लिखें", "answer": "tall" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which word describes a noun?",
+        "questionHi": "कौन सा शब्द संज्ञा का वर्णन करता है?",
+        "optionsEn": ["slow", "slowly", "run", "under"],
+        "optionsHi": ["धीमा", "धीरे", "दौड़ना", "के नीचे"],
+        "correctIndex": 0,
+        "explanationEn": "Slow (adjective) describes something; slowly is an adverb.",
+        "explanationHi": "Slow (विशेषण) वर्णन करता है; slowly क्रिया-विशेषण है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "In 'a beautiful flower', the adjective is ____.",
+        "questionHi": "'a beautiful flower' में विशेषण है ____.",
+        "optionsEn": ["a", "beautiful", "flower", "(none)"],
+        "optionsHi": ["a", "beautiful", "flower", "कोई नहीं"],
+        "correctIndex": 1,
+        "explanationEn": "Beautiful describes flower.",
+        "explanationHi": "Beautiful, flower का वर्णन करता है।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Which is NOT an adjective?",
+        "questionHi": "कौन सा विशेषण नहीं है?",
+        "optionsEn": ["happy", "green", "quickly", "small"],
+        "optionsHi": ["खुश", "हरा", "जल्दी", "छोटा"],
+        "correctIndex": 2,
+        "explanationEn": "Quickly is an adverb.",
+        "explanationHi": "Quickly क्रिया-विशेषण है।"
+      }
+    ]
+  },
+  {
+    "id": "b-06-verb",
+    "level": "beginner",
+    "topic": { "en": "Verb", "hi": "क्रिया (Verb)" },
+    "explanation": {
+      "en": "A verb shows action or state (run, eat, is, are).",
+      "hi": "क्रिया काम/कार्य या अवस्था बताती है (run, eat, is, are)।"
+    },
+    "examples": [
+      { "en": "I play cricket.", "hi": "मैं क्रिकेट खेलता/खेलती हूँ।" },
+      { "en": "She cooks food.", "hi": "वह खाना पकाती है।" },
+      { "en": "They are students.", "hi": "वे छात्र हैं।" },
+      { "en": "He writes a letter.", "hi": "वह पत्र लिखता है।" },
+      { "en": "The baby sleeps.", "hi": "बच्चा सोता है।" }
+    ],
+    "illustrationKey": "verb",
+    "practice": [
+      { "id": "p1", "promptEn": "Choose a verb: 'eat' or 'blue'", "promptHi": "क्रिया चुनें: 'eat' या 'blue'", "answer": "eat" },
+      { "id": "p2", "promptEn": "Fill: She ____ to school. (go/goes)", "promptHi": "भरें: She ____ to school. (go/goes)", "answer": "goes" },
+      { "id": "p3", "promptEn": "Write the verb in: 'Birds fly.'", "promptHi": "'Birds fly.' में क्रिया लिखें", "answer": "fly" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which sentence has a verb?",
+        "questionHi": "किस वाक्य में क्रिया है?",
+        "optionsEn": ["Red flower.", "Very happy.", "He runs fast.", "In the box."],
+        "optionsHi": ["लाल फूल।", "बहुत खुश।", "वह तेज़ दौड़ता है।", "डिब्बे में।"],
+        "correctIndex": 2,
+        "explanationEn": "Runs is the verb.",
+        "explanationHi": "Runs क्रिया है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "In 'They are tired', the verb is ____.",
+        "questionHi": "'They are tired' में क्रिया है ____.",
+        "optionsEn": ["They", "are", "tired", "(none)"],
+        "optionsHi": ["They", "are", "tired", "कोई नहीं"],
+        "correctIndex": 1,
+        "explanationEn": "Are is a verb (be verb).",
+        "explanationHi": "Are क्रिया है (be verb)।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Which word is NOT a verb?",
+        "questionHi": "कौन सा शब्द क्रिया नहीं है?",
+        "optionsEn": ["sleep", "write", "teacher", "jump"],
+        "optionsHi": ["सोना", "लिखना", "शिक्षक", "कूदना"],
+        "correctIndex": 2,
+        "explanationEn": "Teacher is a noun.",
+        "explanationHi": "Teacher संज्ञा है।"
+      }
+    ]
+  },
+  {
+    "id": "b-07-adverb",
+    "level": "beginner",
+    "topic": { "en": "Adverb", "hi": "क्रिया-विशेषण (Adverb)" },
+    "explanation": {
+      "en": "An adverb describes a verb, adjective, or another adverb (how, when, where, how much).",
+      "hi": "क्रिया-विशेषण क्रिया/विशेषण/अन्य क्रिया-विशेषण का वर्णन करता है (कैसे, कब, कहाँ, कितना)।"
+    },
+    "examples": [
+      { "en": "He runs quickly.", "hi": "वह जल्दी दौड़ता है।" },
+      { "en": "She speaks softly.", "hi": "वह धीरे बोलती है।" },
+      { "en": "I will come tomorrow.", "hi": "मैं कल आऊँगा/आऊँगी।" },
+      { "en": "They live nearby.", "hi": "वे पास में रहते हैं।" },
+      { "en": "It is very cold.", "hi": "बहुत ठंड है।" }
+    ],
+    "illustrationKey": "adverb",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill an adverb: He speaks ____. (slowly/slow)", "promptHi": "क्रिया-विशेषण भरें: He speaks ____. (slowly/slow)", "answer": "slowly" },
+      { "id": "p2", "promptEn": "Write the adverb in: 'She sings beautifully.'", "promptHi": "'She sings beautifully.' में क्रिया-विशेषण लिखें", "answer": "beautifully" },
+      { "id": "p3", "promptEn": "Choose an adverb: 'very' or 'book'", "promptHi": "क्रिया-विशेषण चुनें: 'very' या 'book'", "answer": "very" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which word is an adverb?",
+        "questionHi": "कौन सा शब्द क्रिया-विशेषण है?",
+        "optionsEn": ["quick", "quickly", "quicker", "quiet"],
+        "optionsHi": ["तेज़", "जल्दी", "और तेज़", "शांत"],
+        "correctIndex": 1,
+        "explanationEn": "Quickly tells how an action happens.",
+        "explanationHi": "Quickly बताता है कि काम कैसे हुआ।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Adverbs often answer:",
+        "questionHi": "Adverb अक्सर किसका उत्तर देता है?",
+        "optionsEn": ["how", "when", "where", "all of these"],
+        "optionsHi": ["कैसे", "कब", "कहाँ", "ये सभी"],
+        "correctIndex": 3,
+        "explanationEn": "Adverbs can tell how/when/where.",
+        "explanationHi": "Adverb कैसे/कब/कहाँ बता सकता है।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "In 'He is very tall', 'very' is a(n) ____.",
+        "questionHi": "'He is very tall' में 'very' क्या है?",
+        "optionsEn": ["noun", "adverb", "verb", "preposition"],
+        "optionsHi": ["संज्ञा", "क्रिया-विशेषण", "क्रिया", "संबंधबोधक"],
+        "correctIndex": 1,
+        "explanationEn": "Very modifies an adjective (tall).",
+        "explanationHi": "Very, tall (विशेषण) को modify करता है।"
+      }
+    ]
+  },
+  {
+    "id": "b-08-preposition",
+    "level": "beginner",
+    "topic": { "en": "Preposition", "hi": "संबंधबोधक (Preposition)" },
+    "explanation": {
+      "en": "A preposition shows relation (place/time/direction): in, on, under, at, to, from.",
+      "hi": "Preposition स्थान/समय/दिशा का संबंध बताता है: in, on, under, at, to, from।"
+    },
+    "examples": [
+      { "en": "The book is on the table.", "hi": "किताब मेज़ पर है।" },
+      { "en": "The cat is under the chair.", "hi": "बिल्ली कुर्सी के नीचे है।" },
+      { "en": "He lives in Jaipur.", "hi": "वह जयपुर में रहता है।" },
+      { "en": "Class starts at 9.", "hi": "कक्षा 9 बजे शुरू होती है।" },
+      { "en": "She goes to school.", "hi": "वह स्कूल जाती है।" }
+    ],
+    "illustrationKey": "preposition",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: The pen is ____ the box. (in/on)", "promptHi": "भरें: The pen is ____ the box. (in/on)", "answer": "in" },
+      { "id": "p2", "promptEn": "Fill: We meet ____ Monday.", "promptHi": "भरें: We meet ____ Monday.", "answer": "on" },
+      { "id": "p3", "promptEn": "Choose a preposition: 'under' or 'happy'", "promptHi": "preposition चुनें: 'under' या 'happy'", "answer": "under" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which word is a preposition?",
+        "questionHi": "कौन सा शब्द preposition है?",
+        "optionsEn": ["at", "tall", "play", "blue"],
+        "optionsHi": ["at", "लंबा", "खेलना", "नीला"],
+        "correctIndex": 0,
+        "explanationEn": "At shows time/place relation.",
+        "explanationHi": "At समय/स्थान का संबंध बताता है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Fill: The cat is ____ the bed.",
+        "questionHi": "भरें: बिल्ली बिस्तर ____ है।",
+        "optionsEn": ["under", "happy", "run", "fast"],
+        "optionsHi": ["के नीचे", "खुश", "दौड़ना", "तेज़"],
+        "correctIndex": 0,
+        "explanationEn": "Under is a place preposition.",
+        "explanationHi": "Under स्थान बताने वाला preposition है।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Prepositions usually come ____ a noun/pronoun.",
+        "questionHi": "Preposition आमतौर पर संज्ञा/सर्वनाम के ____ आता है।",
+        "optionsEn": ["before", "after", "instead of", "never"],
+        "optionsHi": ["पहले", "बाद में", "की जगह", "कभी नहीं"],
+        "correctIndex": 0,
+        "explanationEn": "In 'in the box', 'in' comes before the noun phrase.",
+        "explanationHi": "'in the box' में 'in' संज्ञा समूह से पहले आता है।"
+      }
+    ]
+  },
+  {
+    "id": "b-09-conjunction",
+    "level": "beginner",
+    "topic": { "en": "Conjunction", "hi": "समुच्चयबोधक (Conjunction)" },
+    "explanation": {
+      "en": "A conjunction joins words or sentences: and, but, or, because.",
+      "hi": "Conjunction शब्द/वाक्य जोड़ता है: and, but, or, because।"
+    },
+    "examples": [
+      { "en": "I like tea and coffee.", "hi": "मुझे चाय और कॉफी पसंद है।" },
+      { "en": "He is poor but honest.", "hi": "वह गरीब लेकिन ईमानदार है।" },
+      { "en": "Do you want tea or milk?", "hi": "क्या आपको चाय या दूध चाहिए?" },
+      { "en": "I stayed home because it rained.", "hi": "मैं घर रहा क्योंकि बारिश हुई।" },
+      { "en": "She studied, so she passed.", "hi": "उसने पढ़ाई की, इसलिए वह पास हुई।" }
+    ],
+    "illustrationKey": "conjunction",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill a conjunction: I tried, ____ I failed. (but/blue)", "promptHi": "conjunction भरें: I tried, ____ I failed. (but/blue)", "answer": "but" },
+      { "id": "p2", "promptEn": "Choose the joining word: 'and' or 'run'", "promptHi": "जोड़ने वाला शब्द चुनें: 'and' या 'run'", "answer": "and" },
+      { "id": "p3", "promptEn": "Fill: Is it big ____ small? (or/at)", "promptHi": "भरें: Is it big ____ small? (or/at)", "answer": "or" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which is a conjunction?",
+        "questionHi": "कौन सा conjunction है?",
+        "optionsEn": ["because", "under", "slow", "book"],
+        "optionsHi": ["because", "के नीचे", "धीमा", "किताब"],
+        "correctIndex": 0,
+        "explanationEn": "Because joins a reason.",
+        "explanationHi": "Because कारण जोड़ता है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Fill: I was tired, ____ I slept early.",
+        "questionHi": "भरें: मैं थक गया/गई था/थी, ____ मैं जल्दी सो गया/गई।",
+        "optionsEn": ["so", "at", "green", "it"],
+        "optionsHi": ["so", "पर", "हरा", "यह"],
+        "correctIndex": 0,
+        "explanationEn": "So shows result.",
+        "explanationHi": "So परिणाम बताता है।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Conjunctions are used to ____.",
+        "questionHi": "Conjunction का उपयोग ____ के लिए होता है।",
+        "optionsEn": ["join", "describe", "name", "count"],
+        "optionsHi": ["जोड़ना", "वर्णन करना", "नाम देना", "गिनना"],
+        "correctIndex": 0,
+        "explanationEn": "They join words/clauses.",
+        "explanationHi": "वे शब्द/खंड जोड़ते हैं।"
+      }
+    ]
+  },
+  {
+    "id": "b-10-interjection",
+    "level": "beginner",
+    "topic": { "en": "Interjection", "hi": "विस्मयादिबोधक (Interjection)" },
+    "explanation": {
+      "en": "An interjection is a short word/expression showing feelings: wow!, oh!, alas!, hurrah!",
+      "hi": "Interjection भावना/भाव दिखाने वाला छोटा शब्द है: wow!, oh!, alas!, hurrah!"
+    },
+    "examples": [
+      { "en": "Wow! That’s amazing.", "hi": "वाह! यह अद्भुत है।" },
+      { "en": "Oh! I forgot.", "hi": "ओह! मैं भूल गया/गई।" },
+      { "en": "Alas! He died.", "hi": "हाय! वह मर गया।" },
+      { "en": "Hurrah! We won.", "hi": "हुर्रे! हम जीत गए।" },
+      { "en": "Oops! My mistake.", "hi": "अरे! मेरी गलती।" }
+    ],
+    "illustrationKey": "interjection",
+    "practice": [
+      { "id": "p1", "promptEn": "Write an interjection for happiness: ____!", "promptHi": "खुशी के लिए interjection लिखें: ____!", "answer": "hurrah" },
+      { "id": "p2", "promptEn": "Write an interjection for surprise: ____!", "promptHi": "आश्चर्य के लिए interjection लिखें: ____!", "answer": "wow" },
+      { "id": "p3", "promptEn": "Is 'alas' an interjection? (yes/no)", "promptHi": "क्या 'alas' interjection है? (yes/no)", "answer": "yes" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which one is an interjection?",
+        "questionHi": "कौन सा interjection है?",
+        "optionsEn": ["wow", "run", "red", "on"],
+        "optionsHi": ["wow", "दौड़ना", "लाल", "पर"],
+        "correctIndex": 0,
+        "explanationEn": "Wow expresses surprise.",
+        "explanationHi": "Wow आश्चर्य व्यक्त करता है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Interjections show ____.",
+        "questionHi": "Interjection ____ दिखाते हैं।",
+        "optionsEn": ["feelings", "tense", "plural", "articles"],
+        "optionsHi": ["भावनाएँ", "काल", "बहुवचन", "articles"],
+        "correctIndex": 0,
+        "explanationEn": "They express emotions.",
+        "explanationHi": "वे भाव व्यक्त करते हैं।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Which is NOT an interjection?",
+        "questionHi": "कौन सा interjection नहीं है?",
+        "optionsEn": ["oops", "oh", "because", "hurrah"],
+        "optionsHi": ["oops", "oh", "because", "hurrah"],
+        "correctIndex": 2,
+        "explanationEn": "Because is a conjunction.",
+        "explanationHi": "Because conjunction है।"
+      }
+    ]
+  },
+  {
+    "id": "b-11-words-sentences",
+    "level": "beginner",
+    "topic": { "en": "Words & Sentences", "hi": "शब्द और वाक्य" },
+    "explanation": {
+      "en": "A sentence is a group of words that makes complete sense. It usually has a subject and a verb.",
+      "hi": "वाक्य शब्दों का समूह है जो पूरा अर्थ देता है। आमतौर पर इसमें subject और verb होते हैं।"
+    },
+    "examples": [
+      { "en": "I read.", "hi": "मैं पढ़ता/पढ़ती हूँ।" },
+      { "en": "She sings.", "hi": "वह गाती है।" },
+      { "en": "They play football.", "hi": "वे फुटबॉल खेलते हैं।" },
+      { "en": "The sun rises in the east.", "hi": "सूरज पूर्व से उगता है।" },
+      { "en": "This is a pen.", "hi": "यह एक पेन है।" }
+    ],
+    "illustrationKey": "sentences",
+    "practice": [
+      { "id": "p1", "promptEn": "Make a simple sentence using 'I' + 'play'", "promptHi": "'I' + 'play' से एक सरल वाक्य बनाएं", "answer": "I play" },
+      { "id": "p2", "promptEn": "Fill the verb: She ____ happy. (is/are)", "promptHi": "क्रिया भरें: She ____ happy. (is/are)", "answer": "is" },
+      { "id": "p3", "promptEn": "Is this a complete sentence? 'In the park.' (yes/no)", "promptHi": "क्या यह पूर्ण वाक्य है? 'In the park.' (yes/no)", "answer": "no" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "A complete sentence should make ____.",
+        "questionHi": "पूर्ण वाक्य का ____ होना चाहिए।",
+        "optionsEn": ["noise", "sense", "money", "sleep"],
+        "optionsHi": ["शोर", "अर्थ", "पैसा", "नींद"],
+        "correctIndex": 1,
+        "explanationEn": "A sentence must make complete sense.",
+        "explanationHi": "वाक्य का पूरा अर्थ होना चाहिए।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Which is a sentence?",
+        "questionHi": "कौन सा वाक्य है?",
+        "optionsEn": ["Blue bag", "Running fast", "I am fine.", "On the table"],
+        "optionsHi": ["नीला बैग", "तेज़ दौड़ना", "मैं ठीक हूँ।", "मेज़ पर"],
+        "correctIndex": 2,
+        "explanationEn": "It has subject + verb and complete meaning.",
+        "explanationHi": "इसमें subject + verb है और पूरा अर्थ है।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "In 'He runs', the subject is ____.",
+        "questionHi": "'He runs' में subject है ____.",
+        "optionsEn": ["He", "runs", "(none)", "fast"],
+        "optionsHi": ["He", "runs", "कोई नहीं", "fast"],
+        "correctIndex": 0,
+        "explanationEn": "He is the subject.",
+        "explanationHi": "He subject है।"
+      }
+    ]
+  }
+]

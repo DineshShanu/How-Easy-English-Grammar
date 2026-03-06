@@ -1,0 +1,488 @@
+[
+  {
+    "id": "a-01-agreement",
+    "level": "advanced",
+    "topic": { "en": "Subject-Verb Agreement", "hi": "Subject-Verb Agreement (कर्ता-क्रिया मेल)" },
+    "explanation": {
+      "en": "The verb should match the subject (singular/plural).",
+      "hi": "Verb को subject के अनुसार होना चाहिए (एकवचन/बहुवचन)।"
+    },
+    "examples": [
+      { "en": "He plays cricket.", "hi": "वह क्रिकेट खेलता है।" },
+      { "en": "They play cricket.", "hi": "वे क्रिकेट खेलते हैं।" },
+      { "en": "The boy is late.", "hi": "लड़का देर से है।" },
+      { "en": "The boys are late.", "hi": "लड़के देर से हैं।" },
+      { "en": "Everyone is ready.", "hi": "हर कोई तैयार है।" }
+    ],
+    "illustrationKey": "agreement",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: She ____ (go/goes).", "promptHi": "भरें: She ____ (go/goes).", "answer": "goes" },
+      { "id": "p2", "promptEn": "Fill: They ____ (is/are).", "promptHi": "भरें: They ____ (is/are).", "answer": "are" },
+      { "id": "p3", "promptEn": "Fill: Everyone ____ (is/are).", "promptHi": "भरें: Everyone ____ (is/are).", "answer": "is" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Choose: The students ____ happy.",
+        "questionHi": "चुनें: The students ____ happy.",
+        "optionsEn": ["is", "are", "was", "be"],
+        "optionsHi": ["is", "are", "was", "be"],
+        "correctIndex": 1,
+        "explanationEn": "Students is plural -> are.",
+        "explanationHi": "Students बहुवचन है -> are।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Choose: Each of the boys ____ a bag.",
+        "questionHi": "चुनें: Each of the boys ____ a bag.",
+        "optionsEn": ["have", "has", "are", "were"],
+        "optionsHi": ["have", "has", "are", "were"],
+        "correctIndex": 1,
+        "explanationEn": "Each is singular -> has.",
+        "explanationHi": "Each एकवचन है -> has।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Which is correct?",
+        "questionHi": "कौन सा सही है?",
+        "optionsEn": ["He go", "He goes", "He going", "He gone"],
+        "optionsHi": ["He go", "He goes", "He going", "He gone"],
+        "correctIndex": 1,
+        "explanationEn": "He/She/It takes -s/-es.",
+        "explanationHi": "He/She/It के साथ -s/-es लगता है।"
+      }
+    ]
+  },
+  {
+    "id": "a-02-present-perfect",
+    "level": "advanced",
+    "topic": { "en": "Present Perfect", "hi": "Present Perfect" },
+    "explanation": {
+      "en": "Present perfect: have/has + V3. It shows result/experience up to now.",
+      "hi": "Present perfect: have/has + V3। यह अब तक का परिणाम/अनुभव दिखाता है।"
+    },
+    "examples": [
+      { "en": "I have finished my work.", "hi": "मैंने अपना काम पूरा कर लिया है।" },
+      { "en": "She has gone to school.", "hi": "वह स्कूल जा चुकी है।" },
+      { "en": "They have seen this movie.", "hi": "वे यह फिल्म देख चुके हैं।" },
+      { "en": "We have lived here for years.", "hi": "हम यहाँ वर्षों से रहते आए हैं।" },
+      { "en": "He has just arrived.", "hi": "वह अभी-अभी पहुँचा है।" }
+    ],
+    "illustrationKey": "present-perfect",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: I ____ done it. (have/has)", "promptHi": "भरें: I ____ done it. (have/has)", "answer": "have" },
+      { "id": "p2", "promptEn": "Fill: She ____ finished. (have/has)", "promptHi": "भरें: She ____ finished. (have/has)", "answer": "has" },
+      { "id": "p3", "promptEn": "Write V3 of 'go'", "promptHi": "'go' का V3 लिखें", "answer": "gone" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Present perfect uses:",
+        "questionHi": "Present perfect में होता है:",
+        "optionsEn": ["has/have + V3", "was/were + V1", "will + V2", "do/does + V2"],
+        "optionsHi": ["has/have + V3", "was/were + V1", "will + V2", "do/does + V2"],
+        "correctIndex": 0,
+        "explanationEn": "Have/has + past participle (V3).",
+        "explanationHi": "Have/has + V3।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Choose: She ____ completed the task.",
+        "questionHi": "चुनें: She ____ completed the task.",
+        "optionsEn": ["have", "has", "had", "will"],
+        "optionsHi": ["have", "has", "had", "will"],
+        "correctIndex": 1,
+        "explanationEn": "She -> has.",
+        "explanationHi": "She के साथ has।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Which sentence is present perfect?",
+        "questionHi": "कौन सा वाक्य present perfect है?",
+        "optionsEn": ["I finished", "I have finished", "I will finish", "I am finishing"],
+        "optionsHi": ["मैंने किया", "मैंने कर लिया है", "मैं करूँगा", "मैं कर रहा हूँ"],
+        "correctIndex": 1,
+        "explanationEn": "Have finished is present perfect.",
+        "explanationHi": "Have finished present perfect है।"
+      }
+    ]
+  },
+  {
+    "id": "a-03-past-perfect",
+    "level": "advanced",
+    "topic": { "en": "Past Perfect", "hi": "Past Perfect" },
+    "explanation": {
+      "en": "Past perfect: had + V3. It shows an earlier past action before another past action.",
+      "hi": "Past perfect: had + V3। यह past में पहले हुआ काम दिखाता है।"
+    },
+    "examples": [
+      { "en": "I had finished before he came.", "hi": "उसके आने से पहले मैं खत्म कर चुका था।" },
+      { "en": "She had left when I arrived.", "hi": "मेरे पहुँचने पर वह जा चुकी थी।" },
+      { "en": "They had eaten before the movie started.", "hi": "फिल्म से पहले वे खा चुके थे।" },
+      { "en": "He had studied, so he passed.", "hi": "उसने पढ़ लिया था, इसलिए वह पास हुआ।" },
+      { "en": "We had met earlier.", "hi": "हम पहले मिल चुके थे।" }
+    ],
+    "illustrationKey": "past-perfect",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: They ____ left. (had/has)", "promptHi": "भरें: They ____ left. (had/has)", "answer": "had" },
+      { "id": "p2", "promptEn": "Fill: I had ____ home. (go/gone)", "promptHi": "भरें: I had ____ home. (go/gone)", "answer": "gone" },
+      { "id": "p3", "promptEn": "Past perfect helper verb is ____.", "promptHi": "Past perfect का helper verb ____ है।", "answer": "had" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Past perfect structure is:",
+        "questionHi": "Past perfect structure है:",
+        "optionsEn": ["had + V3", "have + V2", "will + V1", "is + V1"],
+        "optionsHi": ["had + V3", "have + V2", "will + V1", "is + V1"],
+        "correctIndex": 0,
+        "explanationEn": "Had + V3.",
+        "explanationHi": "Had + V3।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Choose: She had ____ the work.",
+        "questionHi": "चुनें: She had ____ the work.",
+        "optionsEn": ["finish", "finished", "finishes", "finishing"],
+        "optionsHi": ["finish", "finished", "finishes", "finishing"],
+        "correctIndex": 1,
+        "explanationEn": "After had, use V3: finished.",
+        "explanationHi": "Had के बाद V3: finished।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Past perfect is used for an action before a ____.",
+        "questionHi": "Past perfect उस काम के लिए जो ____ से पहले हुआ हो।",
+        "optionsEn": ["present", "future", "another past action", "noun"],
+        "optionsHi": ["वर्तमान", "भविष्य", "दूसरा past काम", "संज्ञा"],
+        "correctIndex": 2,
+        "explanationEn": "It shows past sequence.",
+        "explanationHi": "यह past का क्रम दिखाता है।"
+      }
+    ]
+  },
+  {
+    "id": "a-04-passive-more",
+    "level": "advanced",
+    "topic": { "en": "Passive Voice (More Tenses)", "hi": "Passive Voice (अधिक काल)" },
+    "explanation": {
+      "en": "Passive voice generally uses be + V3. Tense changes the be-verb.",
+      "hi": "Passive में सामान्यतः be + V3 होता है। Tense के अनुसार be-verb बदलता है।"
+    },
+    "examples": [
+      { "en": "Present: The work is done.", "hi": "काम किया जाता है।" },
+      { "en": "Past: The work was done.", "hi": "काम किया गया।" },
+      { "en": "Future: The work will be done.", "hi": "काम किया जाएगा।" },
+      { "en": "Pres. perfect: The work has been done.", "hi": "काम हो चुका है।" },
+      { "en": "Past cont.: The work was being done.", "hi": "काम किया जा रहा था।" }
+    ],
+    "illustrationKey": "passive-advanced",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: The homework has been ____.", "promptHi": "भरें: The homework has been ____.", "answer": "done" },
+      { "id": "p2", "promptEn": "Fill: The cake was ____ by her.", "promptHi": "भरें: The cake was ____ by her.", "answer": "baked" },
+      { "id": "p3", "promptEn": "Fill: The match will be ____.", "promptHi": "भरें: The match will be ____.", "answer": "played" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Choose the passive sentence.",
+        "questionHi": "Passive वाक्य चुनें।",
+        "optionsEn": ["They will finish the work.", "The work will be finished.", "They are finishing the work.", "They finished the work."],
+        "optionsHi": ["वे काम खत्म करेंगे।", "काम खत्म किया जाएगा।", "वे काम कर रहे हैं।", "उन्होंने काम किया।"],
+        "correctIndex": 1,
+        "explanationEn": "Will be finished is future passive.",
+        "explanationHi": "Will be finished future passive है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Present perfect passive uses:",
+        "questionHi": "Present perfect passive में होता है:",
+        "optionsEn": ["has/have been + V3", "is/are + V1", "will + V2", "do/does"],
+        "optionsHi": ["has/have been + V3", "is/are + V1", "will + V2", "do/does"],
+        "correctIndex": 0,
+        "explanationEn": "Has been done / have been done.",
+        "explanationHi": "Has been done / have been done।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Passive voice generally uses:",
+        "questionHi": "Passive voice में सामान्यतः होता है:",
+        "optionsEn": ["be + V3", "do + V2", "will + V2", "has + V1"],
+        "optionsHi": ["be + V3", "do + V2", "will + V2", "has + V1"],
+        "correctIndex": 0,
+        "explanationEn": "Be-verb + past participle.",
+        "explanationHi": "Be-verb + V3।"
+      }
+    ]
+  },
+  {
+    "id": "a-05-reported",
+    "level": "advanced",
+    "topic": { "en": "Reported Speech", "hi": "Reported Speech (Indirect Speech)" },
+    "explanation": {
+      "en": "Reported speech tells the meaning (often with tense/pronoun changes).",
+      "hi": "Reported speech में अर्थ बताया जाता है (अक्सर tense/pronoun बदलते हैं)।"
+    },
+    "examples": [
+      { "en": "Direct: He said, \"I am tired.\"", "hi": "Direct: उसने कहा, \"मैं थक गया हूँ।\"" },
+      { "en": "Indirect: He said that he was tired.", "hi": "Indirect: उसने कहा कि वह थका था।" },
+      { "en": "Direct: She said, \"I will come.\"", "hi": "Direct: उसने कहा, \"मैं आऊँगी।\"" },
+      { "en": "Indirect: She said that she would come.", "hi": "Indirect: उसने कहा कि वह आएगी।" },
+      { "en": "Direct: They said, \"We are ready.\"", "hi": "Direct: उन्होंने कहा, \"हम तैयार हैं।\"" }
+    ],
+    "illustrationKey": "reported-speech",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: He said that he ____ tired. (was/is)", "promptHi": "भरें: He said that he ____ tired. (was/is)", "answer": "was" },
+      { "id": "p2", "promptEn": "Fill: She said that she ____ come. (would/will)", "promptHi": "भरें: She said that she ____ come. (would/will)", "answer": "would" },
+      { "id": "p3", "promptEn": "Reported speech often uses the word ____.", "promptHi": "Reported speech में अक्सर ____ शब्द आता है।", "answer": "that" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Indirect speech reports the ____.",
+        "questionHi": "Indirect speech ____ बताता है।",
+        "optionsEn": ["exact words", "meaning", "alphabet", "punctuation"],
+        "optionsHi": ["exact words", "meaning", "वर्णमाला", "विराम"],
+        "correctIndex": 1,
+        "explanationEn": "It focuses on meaning.",
+        "explanationHi": "यह अर्थ पर ध्यान देता है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Choose the indirect form: He said, \"I am fine.\"",
+        "questionHi": "Indirect चुनें: He said, \"I am fine.\"",
+        "optionsEn": ["He said that he was fine.", "He said that he is fine.", "He said that I was fine.", "He said he fine."],
+        "optionsHi": ["उसने कहा कि वह ठीक था।", "उसने कहा कि वह ठीक है।", "उसने कहा कि मैं ठीक था।", "उसने कहा वह ठीक।"],
+        "correctIndex": 0,
+        "explanationEn": "Am -> was is a common change.",
+        "explanationHi": "Am -> was सामान्य परिवर्तन है।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "In many cases, 'will' changes to ____.",
+        "questionHi": "अक्सर 'will' बदलकर ____ हो जाता है।",
+        "optionsEn": ["would", "can", "must", "do"],
+        "optionsHi": ["would", "can", "must", "do"],
+        "correctIndex": 0,
+        "explanationEn": "Will -> would is common.",
+        "explanationHi": "Will -> would सामान्य है।"
+      }
+    ]
+  },
+  {
+    "id": "a-06-conditionals",
+    "level": "advanced",
+    "topic": { "en": "Conditionals (If-Clauses)", "hi": "Conditionals (If-Clauses)" },
+    "explanation": {
+      "en": "Conditionals show a condition and a result. Common: If + present, will + V1.",
+      "hi": "Conditionals में शर्त और परिणाम होता है। सामान्य: If + present, will + V1।"
+    },
+    "examples": [
+      { "en": "If it rains, I will stay home.", "hi": "अगर बारिश होगी, तो मैं घर रहूँगा/रहूँगी।" },
+      { "en": "If you study, you will pass.", "hi": "अगर आप पढ़ेंगे, तो आप पास होंगे।" },
+      { "en": "If I were rich, I would travel.", "hi": "अगर मैं अमीर होता, तो घूमता।" },
+      { "en": "If he comes, tell me.", "hi": "अगर वह आए, तो बताना।" },
+      { "en": "If you heat ice, it melts.", "hi": "अगर आप बर्फ गरम करें, तो पिघलती है।" }
+    ],
+    "illustrationKey": "conditionals",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: If you work hard, you ____ succeed. (will/would)", "promptHi": "भरें: If you work hard, you ____ succeed. (will/would)", "answer": "will" },
+      { "id": "p2", "promptEn": "Fill: If I were you, I ____ study more. (would/will)", "promptHi": "भरें: If I were you, I ____ study more. (would/will)", "answer": "would" },
+      { "id": "p3", "promptEn": "Conditionals often start with ____.", "promptHi": "Conditionals अक्सर ____ से शुरू होते हैं।", "answer": "if" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "First conditional pattern is:",
+        "questionHi": "First conditional pattern है:",
+        "optionsEn": ["If + present, will + V1", "If + past, would + V1", "If + V3, had + V2", "If + future, will + V2"],
+        "optionsHi": ["If + present, will + V1", "If + past, would + V1", "If + V3, had + V2", "If + future, will + V2"],
+        "correctIndex": 0,
+        "explanationEn": "If + present, will + base verb.",
+        "explanationHi": "If + present, will + base verb।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Choose a second conditional sentence.",
+        "questionHi": "Second conditional वाक्य चुनें।",
+        "optionsEn": ["If it rains, I will stay home.", "If I were rich, I would travel.", "If you heat ice, it melts.", "If he comes, I come."],
+        "optionsHi": ["अगर बारिश होगी, मैं घर रहूँगा।", "अगर मैं अमीर होता, तो घूमता।", "अगर गरम करें, पिघलती है।", "अगर वह आए, मैं आता हूँ।"],
+        "correctIndex": 1,
+        "explanationEn": "Second conditional: unreal now (were/would).",
+        "explanationHi": "Second conditional: वर्तमान में काल्पनिक (were/would)।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "In second conditional, we often use ____.",
+        "questionHi": "Second conditional में अक्सर ____ आता है।",
+        "optionsEn": ["would", "will", "has", "did"],
+        "optionsHi": ["would", "will", "has", "did"],
+        "correctIndex": 0,
+        "explanationEn": "Would is common in result.",
+        "explanationHi": "परिणाम में would आता है।"
+      }
+    ]
+  },
+  {
+    "id": "a-07-clauses",
+    "level": "advanced",
+    "topic": { "en": "Clauses (Independent/Dependent)", "hi": "Clauses (Independent/Dependent)" },
+    "explanation": {
+      "en": "A clause has a subject + verb. Independent can stand alone; dependent cannot.",
+      "hi": "Clause में subject + verb होता है। Independent अकेला चल सकता है; dependent नहीं।"
+    },
+    "examples": [
+      { "en": "I was tired. (independent)", "hi": "मैं थका था। (independent)" },
+      { "en": "because I was tired (dependent)", "hi": "क्योंकि मैं थका था (dependent)" },
+      { "en": "I slept because I was tired.", "hi": "मैं सो गया क्योंकि मैं थका था।" },
+      { "en": "When he came, we started.", "hi": "जब वह आया, तब हमने शुरू किया।" },
+      { "en": "She knows that I am honest.", "hi": "उसे पता है कि मैं ईमानदार हूँ।" }
+    ],
+    "illustrationKey": "clauses",
+    "practice": [
+      { "id": "p1", "promptEn": "Is 'because I was late' dependent or independent?", "promptHi": "'because I was late' dependent है या independent?", "answer": "dependent" },
+      { "id": "p2", "promptEn": "Is 'I was late' dependent or independent?", "promptHi": "'I was late' dependent है या independent?", "answer": "independent" },
+      { "id": "p3", "promptEn": "A clause must have subject + ____.", "promptHi": "Clause में subject + ____ होना चाहिए।", "answer": "verb" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which is an independent clause?",
+        "questionHi": "कौन सा independent clause है?",
+        "optionsEn": ["because he was tired", "when I came", "I like tea", "although it rained"],
+        "optionsHi": ["क्योंकि वह थका था", "जब मैं आया", "मुझे चाय पसंद है", "हालाँकि बारिश हुई"],
+        "correctIndex": 2,
+        "explanationEn": "It can stand alone.",
+        "explanationHi": "यह अकेले चल सकता है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "A dependent clause is usually ____.",
+        "questionHi": "Dependent clause आमतौर पर ____ होता है।",
+        "optionsEn": ["incomplete", "a verb", "plural", "a noun"],
+        "optionsHi": ["अपूर्ण", "क्रिया", "बहुवचन", "संज्ञा"],
+        "correctIndex": 0,
+        "explanationEn": "It needs an independent clause.",
+        "explanationHi": "इसे independent clause चाहिए।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "A clause contains:",
+        "questionHi": "Clause में होता है:",
+        "optionsEn": ["only noun", "subject + verb", "only adjective", "only preposition"],
+        "optionsHi": ["केवल संज्ञा", "subject + verb", "केवल विशेषण", "केवल preposition"],
+        "correctIndex": 1,
+        "explanationEn": "That is the key idea.",
+        "explanationHi": "यही मुख्य बात है।"
+      }
+    ]
+  },
+  {
+    "id": "a-08-gerund-infinitive",
+    "level": "advanced",
+    "topic": { "en": "Gerund vs Infinitive", "hi": "Gerund vs Infinitive" },
+    "explanation": {
+      "en": "Gerund is verb+ing used like a noun. Infinitive is 'to' + verb.",
+      "hi": "Gerund = verb+ing जो noun की तरह काम करे। Infinitive = to + verb।"
+    },
+    "examples": [
+      { "en": "Swimming is fun.", "hi": "तैरना मज़ेदार है।" },
+      { "en": "I like reading.", "hi": "मुझे पढ़ना पसंद है।" },
+      { "en": "I want to learn English.", "hi": "मैं अंग्रेज़ी सीखना चाहता/चाहती हूँ।" },
+      { "en": "She decided to go.", "hi": "उसने जाने का फैसला किया।" },
+      { "en": "He enjoys playing.", "hi": "वह खेलना पसंद करता है।" }
+    ],
+    "illustrationKey": "gerund-infinitive",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: I enjoy ____. (play/playing)", "promptHi": "भरें: I enjoy ____. (play/playing)", "answer": "playing" },
+      { "id": "p2", "promptEn": "Fill: I want ____.", "promptHi": "भरें: I want ____.", "answer": "to learn" },
+      { "id": "p3", "promptEn": "Verb+ing used as noun is called ____.", "promptHi": "noun की तरह verb+ing को ____ कहते हैं।", "answer": "gerund" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which sentence contains a gerund?",
+        "questionHi": "किस वाक्य में gerund है?",
+        "optionsEn": ["I want to go.", "Reading is good.", "He will go.", "She goes."],
+        "optionsHi": ["मैं जाना चाहता हूँ।", "पढ़ना अच्छा है।", "वह जाएगा।", "वह जाती है।"],
+        "correctIndex": 1,
+        "explanationEn": "Reading acts like a noun.",
+        "explanationHi": "Reading noun की तरह है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "An infinitive is:",
+        "questionHi": "Infinitive क्या है?",
+        "optionsEn": ["verb+ing", "to + verb", "V2", "a noun"],
+        "optionsHi": ["verb+ing", "to + verb", "V2", "संज्ञा"],
+        "correctIndex": 1,
+        "explanationEn": "To + base verb.",
+        "explanationHi": "To + base verb।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Choose: I decided ____.",
+        "questionHi": "चुनें: I decided ____.",
+        "optionsEn": ["go", "to go", "going", "gone"],
+        "optionsHi": ["go", "to go", "going", "gone"],
+        "correctIndex": 1,
+        "explanationEn": "Decide is often followed by to + verb.",
+        "explanationHi": "Decide के बाद अक्सर to + verb आता है।"
+      }
+    ]
+  },
+  {
+    "id": "a-09-parallelism",
+    "level": "advanced",
+    "topic": { "en": "Parallelism", "hi": "Parallelism (समान संरचना)" },
+    "explanation": {
+      "en": "Parallelism means using the same form in a list for clean grammar.",
+      "hi": "Parallelism का मतलब सूची में एक जैसी form रखना।"
+    },
+    "examples": [
+      { "en": "I like reading, writing, and speaking.", "hi": "मुझे पढ़ना, लिखना और बोलना पसंद है।" },
+      { "en": "She is smart, hardworking, and polite.", "hi": "वह समझदार, मेहनती और विनम्र है।" },
+      { "en": "Correct: to sing, to dance, and to act.", "hi": "सही: to sing, to dance, and to act।" },
+      { "en": "Wrong: to sing, dancing, and to act.", "hi": "गलत: to sing, dancing, and to act।" },
+      { "en": "Correct: eat, drink, sleep.", "hi": "सही: eat, drink, sleep।" }
+    ],
+    "illustrationKey": "parallelism",
+    "practice": [
+      { "id": "p1", "promptEn": "Make parallel: reading, writing, and ____.", "promptHi": "parallel बनाएं: reading, writing, and ____.", "answer": "speaking" },
+      { "id": "p2", "promptEn": "Make parallel: to eat, to drink, and ____.", "promptHi": "parallel बनाएं: to eat, to drink, and ____.", "answer": "to sleep" },
+      { "id": "p3", "promptEn": "Parallelism means same grammatical ____.", "promptHi": "Parallelism का मतलब एक जैसा grammatical ____.", "answer": "form" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which list is parallel?",
+        "questionHi": "कौन सी सूची parallel है?",
+        "optionsEn": ["to read, writing, and to speak", "reading, writing, speaking", "read, writing, spoken", "to reads, to write, to speak"],
+        "optionsHi": ["to read, writing, and to speak", "reading, writing, speaking", "read, writing, spoken", "to reads, to write, to speak"],
+        "correctIndex": 1,
+        "explanationEn": "All items use the same -ing form.",
+        "explanationHi": "सभी items -ing form में हैं।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Parallelism improves ____.",
+        "questionHi": "Parallelism ____ को बेहतर बनाता है।",
+        "optionsEn": ["clarity", "alphabet", "plural", "gender"],
+        "optionsHi": ["स्पष्टता", "वर्णमाला", "बहुवचन", "लिंग"],
+        "correctIndex": 0,
+        "explanationEn": "Balanced forms are clearer.",
+        "explanationHi": "समान form से वाक्य साफ़ होते हैं।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Choose a correct parallel pair.",
+        "questionHi": "सही parallel pair चुनें।",
+        "optionsEn": ["to study and reading", "studying and to read", "to study and to read", "study and to reading"],
+        "optionsHi": ["to study and reading", "studying and to read", "to study and to read", "study and to reading"],
+        "correctIndex": 2,
+        "explanationEn": "Both use 'to + verb'.",
+        "explanationHi": "दोनों 'to + verb' में हैं।"
+      }
+    ]
+  }
+]

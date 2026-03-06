@@ -1,0 +1,23 @@
+[
+  {
+    "id": "w1",
+    "word": "Improve",
+    "meaningHi": "सुधारना",
+    "exampleEn": "I want to improve my English.",
+    "exampleHi": "मैं अपनी अंग्रेज़ी सुधारना चाहता/चाहती हूँ।"
+  },
+  {
+    "id": "w2",
+    "word": "Practice",
+    "meaningHi": "अभ्यास",
+    "exampleEn": "Practice makes you confident.",
+    "exampleHi": "अभ्यास आपको आत्मविश्वासी बनाता है।"
+  },
+  {
+    "id": "w3",
+    "word": "Accurate",
+    "meaningHi": "सटीक",
+    "exampleEn": "Be accurate with verb forms.",
+    "exampleHi": "क्रिया के रूपों में सटीक रहें।"
+  }
+]

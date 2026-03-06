@@ -1,0 +1,1028 @@
+[
+  {
+    "id": "i-01-articles",
+    "level": "intermediate",
+    "topic": { "en": "Articles (A, An, The)", "hi": "Articles (A, An, The)" },
+    "explanation": {
+      "en": "Articles are used before nouns. Use 'a' before consonant sound, 'an' before vowel sound, and 'the' for something specific.",
+      "hi": "Articles संज्ञा से पहले आते हैं। व्यंजन ध्वनि से पहले 'a', स्वर ध्वनि से पहले 'an', और किसी खास चीज़ के लिए 'the'।"
+    },
+    "examples": [
+      { "en": "I have a pen.", "hi": "मेरे पास एक पेन है।" },
+      { "en": "She ate an apple.", "hi": "उसने एक सेब खाया।" },
+      { "en": "The sun is bright.", "hi": "सूरज चमकीला है।" },
+      { "en": "He is an honest man.", "hi": "वह एक ईमानदार आदमी है।" },
+      { "en": "Open the door.", "hi": "दरवाज़ा खोलो।" }
+    ],
+    "illustrationKey": "articles",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: I saw ____ elephant.", "promptHi": "भरें: I saw ____ elephant.", "answer": "an" },
+      { "id": "p2", "promptEn": "Fill: She bought ____ book.", "promptHi": "भरें: She bought ____ book.", "answer": "a" },
+      { "id": "p3", "promptEn": "Fill: Please close ____ window. (specific)", "promptHi": "भरें: Please close ____ window. (specific)", "answer": "the" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Choose the correct article: ____ umbrella",
+        "questionHi": "सही article चुनें: ____ umbrella",
+        "optionsEn": ["a", "an", "the", "(none)"],
+        "optionsHi": ["a", "an", "the", "कोई नहीं"],
+        "correctIndex": 1,
+        "explanationEn": "Umbrella starts with a vowel sound, so use 'an'.",
+        "explanationHi": "Umbrella की शुरुआत स्वर ध्वनि से होती है, इसलिए 'an'।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "We use 'the' when something is ____.",
+        "questionHi": "'the' का उपयोग तब होता है जब चीज़ ____ हो।",
+        "optionsEn": ["any", "specific", "plural only", "a verb"],
+        "optionsHi": ["कोई भी", "विशिष्ट", "केवल बहुवचन", "क्रिया"],
+        "correctIndex": 1,
+        "explanationEn": "The points to a specific noun.",
+        "explanationHi": "The किसी खास चीज़ को बताता है।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Choose: He is ____ doctor.",
+        "questionHi": "चुनें: He is ____ doctor.",
+        "optionsEn": ["a", "an", "the", "(none)"],
+        "optionsHi": ["a", "an", "the", "कोई नहीं"],
+        "correctIndex": 0,
+        "explanationEn": "Doctor starts with a consonant sound, so 'a'.",
+        "explanationHi": "Doctor व्यंजन ध्वनि से शुरू होता है, इसलिए 'a'।"
+      }
+    ]
+  },
+  {
+    "id": "i-02-singular-plural",
+    "level": "intermediate",
+    "topic": { "en": "Singular & Plural", "hi": "एकवचन और बहुवचन" },
+    "explanation": {
+      "en": "Singular means one; plural means more than one. Many plurals add -s/-es, but some are irregular.",
+      "hi": "Singular = एक, Plural = एक से अधिक। अक्सर -s/-es जोड़ते हैं, कुछ irregular होते हैं।"
+    },
+    "examples": [
+      { "en": "one book → two books", "hi": "एक किताब → दो किताबें" },
+      { "en": "one box → two boxes", "hi": "एक डिब्बा → दो डिब्बे" },
+      { "en": "one baby → two babies", "hi": "एक बच्चा → दो बच्चे" },
+      { "en": "one man → two men", "hi": "एक आदमी → दो आदमी (men)" },
+      { "en": "one child → two children", "hi": "एक बच्चा → दो बच्चे (children)" }
+    ],
+    "illustrationKey": "plural",
+    "practice": [
+      { "id": "p1", "promptEn": "Write plural: boy → ____", "promptHi": "बहुवचन लिखें: boy → ____", "answer": "boys" },
+      { "id": "p2", "promptEn": "Write plural: box → ____", "promptHi": "बहुवचन लिखें: box → ____", "answer": "boxes" },
+      { "id": "p3", "promptEn": "Write plural: child → ____", "promptHi": "बहुवचन लिखें: child → ____", "answer": "children" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Plural of 'baby' is ____.",
+        "questionHi": "'baby' का plural ____ है।",
+        "optionsEn": ["babys", "babies", "baby", "babyes"],
+        "optionsHi": ["babys", "babies", "baby", "babyes"],
+        "correctIndex": 1,
+        "explanationEn": "Consonant + y → change y to ies.",
+        "explanationHi": "व्यंजन + y → y हटाकर ies लगाते हैं।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Plural of 'man' is ____.",
+        "questionHi": "'man' का plural ____ है।",
+        "optionsEn": ["mans", "men", "man", "mens"],
+        "optionsHi": ["mans", "men", "man", "mens"],
+        "correctIndex": 1,
+        "explanationEn": "Man → men is irregular.",
+        "explanationHi": "Man → men irregular plural है।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "We add -es to make plural for words ending in ____.",
+        "questionHi": "किन शब्दों में plural बनाने के लिए -es जोड़ते हैं?",
+        "optionsEn": ["-s/-x/-ch/-sh", "-a", "-t", "-n"],
+        "optionsHi": ["-s/-x/-ch/-sh", "-a", "-t", "-n"],
+        "correctIndex": 0,
+        "explanationEn": "box→boxes, bus→buses, dish→dishes.",
+        "explanationHi": "box→boxes, bus→buses, dish→dishes।"
+      }
+    ]
+  },
+  {
+    "id": "i-03-gender",
+    "level": "intermediate",
+    "topic": { "en": "Gender (Masculine/Feminine)", "hi": "लिंग (Gender)" },
+    "explanation": {
+      "en": "Gender shows male/female. Some pairs change (king/queen), others use different words (man/woman).",
+      "hi": "Gender पुरुष/स्त्री को दिखाता है। कुछ जोड़े बदलते हैं (king/queen), कुछ अलग शब्द होते हैं (man/woman)।"
+    },
+    "examples": [
+      { "en": "king → queen", "hi": "राजा → रानी" },
+      { "en": "actor → actress", "hi": "अभिनेता → अभिनेत्री" },
+      { "en": "man → woman", "hi": "पुरुष → महिला" },
+      { "en": "father → mother", "hi": "पिता → माता" },
+      { "en": "lion → lioness", "hi": "शेर → शेरनी" }
+    ],
+    "illustrationKey": "gender",
+    "practice": [
+      { "id": "p1", "promptEn": "Write feminine: king → ____", "promptHi": "स्त्रीलिंग लिखें: king → ____", "answer": "queen" },
+      { "id": "p2", "promptEn": "Write masculine: mother → ____", "promptHi": "पुल्लिंग लिखें: mother → ____", "answer": "father" },
+      { "id": "p3", "promptEn": "Write feminine: lion → ____", "promptHi": "स्त्रीलिंग लिखें: lion → ____", "answer": "lioness" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Feminine of 'actor' is ____.",
+        "questionHi": "'actor' का स्त्रीलिंग ____ है।",
+        "optionsEn": ["actress", "actor", "actora", "actorer"],
+        "optionsHi": ["actress", "actor", "actora", "actorer"],
+        "correctIndex": 0,
+        "explanationEn": "Actor → actress.",
+        "explanationHi": "Actor → actress।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Masculine of 'woman' is ____.",
+        "questionHi": "'woman' का पुल्लिंग ____ है।",
+        "optionsEn": ["man", "boy", "male", "husband"],
+        "optionsHi": ["man", "boy", "male", "husband"],
+        "correctIndex": 0,
+        "explanationEn": "Woman ↔ man is a common pair.",
+        "explanationHi": "Woman ↔ man एक सामान्य जोड़ा है।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Feminine of 'prince' is ____.",
+        "questionHi": "'prince' का स्त्रीलिंग ____ है।",
+        "optionsEn": ["princess", "queen", "girl", "lady"],
+        "optionsHi": ["princess", "queen", "लड़की", "महिला"],
+        "correctIndex": 0,
+        "explanationEn": "Prince → princess.",
+        "explanationHi": "Prince → princess।"
+      }
+    ]
+  },
+  {
+    "id": "i-04-tenses-intro",
+    "level": "intermediate",
+    "topic": { "en": "Tense (Introduction)", "hi": "काल (Tense) परिचय" },
+    "explanation": {
+      "en": "Tense tells time: present, past, future. English uses verb forms to show time. Learn each tense form in separate lessons (simple, continuous, perfect, perfect continuous).",
+      "hi": "Tense समय बताता है: present, past, future। अंग्रेज़ी में verb forms से समय दिखाते हैं। हर form को अलग lessons में सीखें (simple, continuous, perfect, perfect continuous)।"
+    },
+    "examples": [
+      { "en": "Present: I eat rice.", "hi": "वर्तमान: मैं चावल खाता/खाती हूँ।" },
+      { "en": "Past: I ate rice.", "hi": "भूत: मैंने चावल खाया।" },
+      { "en": "Future: I will eat rice.", "hi": "भविष्य: मैं चावल खाऊँगा/खाऊँगी।" },
+      { "en": "Present: She goes to school.", "hi": "वर्तमान: वह स्कूल जाती है।" },
+      { "en": "Past: She went to school.", "hi": "भूत: वह स्कूल गई।" }
+    ],
+    "illustrationKey": "tense-intro",
+    "practice": [
+      { "id": "p1", "promptEn": "Choose tense: 'Yesterday I went.'", "promptHi": "काल चुनें: 'Yesterday I went.'", "answer": "past" },
+      { "id": "p2", "promptEn": "Choose tense: 'I will come tomorrow.'", "promptHi": "काल चुनें: 'I will come tomorrow.'", "answer": "future" },
+      { "id": "p3", "promptEn": "Choose tense: 'I play every day.'", "promptHi": "काल चुनें: 'I play every day.'", "answer": "present" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which word often shows future?",
+        "questionHi": "Future को अक्सर कौन सा शब्द दिखाता है?",
+        "optionsEn": ["yesterday", "will", "ago", "was"],
+        "optionsHi": ["कल (past)", "will", "पहले", "था"],
+        "correctIndex": 1,
+        "explanationEn": "Will is commonly used for future.",
+        "explanationHi": "Will का उपयोग भविष्य के लिए होता है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Past tense talks about ____.",
+        "questionHi": "Past tense ____ के बारे में बताता है।",
+        "optionsEn": ["now", "future", "before", "never"],
+        "optionsHi": ["अब", "भविष्य", "पहले", "कभी नहीं"],
+        "correctIndex": 2,
+        "explanationEn": "Past = before now.",
+        "explanationHi": "Past = अब से पहले।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Which sentence is in present tense?",
+        "questionHi": "कौन सा वाक्य present tense में है?",
+        "optionsEn": ["He played.", "He plays.", "He will play.", "He had played."],
+        "optionsHi": ["वह खेला।", "वह खेलता है।", "वह खेलेगा।", "वह खेल चुका था।"],
+        "correctIndex": 1,
+        "explanationEn": "Plays shows present simple.",
+        "explanationHi": "Plays present simple दिखाता है।"
+      }
+    ]
+  },
+  {
+    "id": "i-05-present-simple",
+    "level": "intermediate",
+    "topic": { "en": "Present Simple", "hi": "Present Simple (Simple Present)" },
+    "explanation": {
+      "en": "Present simple is used for habits, routines, facts. With he/she/it, add -s/-es to the verb.",
+      "hi": "Present simple आदत, routine और तथ्य के लिए। He/She/It के साथ verb में -s/-es लगता है।"
+    },
+    "examples": [
+      { "en": "I go to school.", "hi": "मैं स्कूल जाता/जाती हूँ।" },
+      { "en": "She goes to school.", "hi": "वह स्कूल जाती है।" },
+      { "en": "They play cricket.", "hi": "वे क्रिकेट खेलते हैं।" },
+      { "en": "He watches TV.", "hi": "वह टीवी देखता है।" },
+      { "en": "Water boils at 100°C.", "hi": "पानी 100°C पर उबलता है।" }
+    ],
+    "illustrationKey": "present-simple",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: He ____ tea. (drink/drinks)", "promptHi": "भरें: He ____ tea. (drink/drinks)", "answer": "drinks" },
+      { "id": "p2", "promptEn": "Fill: They ____ football. (play/plays)", "promptHi": "भरें: They ____ football. (play/plays)", "answer": "play" },
+      { "id": "p3", "promptEn": "Fill: She ____ English. (study/studies)", "promptHi": "भरें: She ____ English. (study/studies)", "answer": "studies" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Choose the correct verb: She ____ to school.",
+        "questionHi": "सही verb चुनें: She ____ to school.",
+        "optionsEn": ["go", "goes", "going", "gone"],
+        "optionsHi": ["go", "goes", "going", "gone"],
+        "correctIndex": 1,
+        "explanationEn": "He/She/It takes -s/-es: goes.",
+        "explanationHi": "He/She/It के साथ -s/-es: goes।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Present simple is used for ____.",
+        "questionHi": "Present simple ____ के लिए उपयोग होता है।",
+        "optionsEn": ["habits", "finished past", "future plans only", "stories"],
+        "optionsHi": ["आदतें", "पूरा भूत", "केवल भविष्य", "कहानियाँ"],
+        "correctIndex": 0,
+        "explanationEn": "Habits and facts.",
+        "explanationHi": "आदतें और तथ्य।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Which is correct?",
+        "questionHi": "कौन सा सही है?",
+        "optionsEn": ["He play", "He plays", "He playing", "He played"],
+        "optionsHi": ["He play", "He plays", "He playing", "He played"],
+        "correctIndex": 1,
+        "explanationEn": "Present simple: He plays.",
+        "explanationHi": "Present simple: He plays।"
+      }
+    ]
+  },
+  {
+    "id": "i-06-past-simple",
+    "level": "intermediate",
+    "topic": { "en": "Past Simple", "hi": "Past Simple (Simple Past)" },
+    "explanation": {
+      "en": "Past simple is used for completed actions in the past. Regular verbs add -ed; some are irregular.",
+      "hi": "Past simple भूत में पूरा हुआ काम बताता है। Regular verbs में -ed लगता है; कुछ irregular होते हैं।"
+    },
+    "examples": [
+      { "en": "I played chess.", "hi": "मैंने शतरंज खेली।" },
+      { "en": "She watched a movie.", "hi": "उसने फिल्म देखी।" },
+      { "en": "They went home.", "hi": "वे घर गए।" },
+      { "en": "He wrote a letter.", "hi": "उसने पत्र लिखा।" },
+      { "en": "We were late.", "hi": "हम देर से थे।" }
+    ],
+    "illustrationKey": "past-simple",
+    "practice": [
+      { "id": "p1", "promptEn": "Past of 'go' is ____.", "promptHi": "'go' का past ____ है।", "answer": "went" },
+      { "id": "p2", "promptEn": "Fill: I ____ a cake. (bake/baked)", "promptHi": "भरें: I ____ a cake. (bake/baked)", "answer": "baked" },
+      { "id": "p3", "promptEn": "Past of 'is' is ____.", "promptHi": "'is' का past ____ है।", "answer": "was" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which is past simple?",
+        "questionHi": "कौन सा past simple है?",
+        "optionsEn": ["eat", "ate", "eating", "will eat"],
+        "optionsHi": ["खाना", "खाया", "खा रहा", "खाएगा"],
+        "correctIndex": 1,
+        "explanationEn": "Ate is the past form of eat.",
+        "explanationHi": "Ate, eat का past form है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Regular verbs form past by adding ____.",
+        "questionHi": "Regular verbs का past बनाने के लिए ____ जोड़ते हैं।",
+        "optionsEn": ["-ing", "-ed", "-s", "-er"],
+        "optionsHi": ["-ing", "-ed", "-s", "-er"],
+        "correctIndex": 1,
+        "explanationEn": "Work → worked.",
+        "explanationHi": "Work → worked।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Choose: They ____ yesterday.",
+        "questionHi": "चुनें: They ____ yesterday.",
+        "optionsEn": ["play", "played", "plays", "playing"],
+        "optionsHi": ["खेलते हैं", "खेला", "खेलता है", "खेल रहा"],
+        "correctIndex": 1,
+        "explanationEn": "Yesterday → past simple: played.",
+        "explanationHi": "Yesterday → past simple: played।"
+      }
+    ]
+  },
+  {
+    "id": "i-07-future-simple",
+    "level": "intermediate",
+    "topic": { "en": "Future Simple (Will)", "hi": "Future Simple (Will)" },
+    "explanation": {
+      "en": "Future simple often uses 'will' + base verb for future actions and predictions.",
+      "hi": "Future simple में अक्सर 'will' + base verb का उपयोग भविष्य के काम/भविष्यवाणी के लिए होता है।"
+    },
+    "examples": [
+      { "en": "I will call you.", "hi": "मैं तुम्हें फोन करूँगा/करूँगी।" },
+      { "en": "She will help me.", "hi": "वह मेरी मदद करेगी।" },
+      { "en": "It will rain today.", "hi": "आज बारिश होगी।" },
+      { "en": "They will come tomorrow.", "hi": "वे कल आएँगे।" },
+      { "en": "We will win.", "hi": "हम जीतेंगे।" }
+    ],
+    "illustrationKey": "future-simple",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: I ____ meet you tomorrow. (will/am)", "promptHi": "भरें: I ____ meet you tomorrow. (will/am)", "answer": "will" },
+      { "id": "p2", "promptEn": "Fill: She will ____ soon. (come/comes)", "promptHi": "भरें: She will ____ soon. (come/comes)", "answer": "come" },
+      { "id": "p3", "promptEn": "Future simple structure word is ____.", "promptHi": "Future simple में मुख्य word ____ है।", "answer": "will" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Choose the future simple sentence.",
+        "questionHi": "Future simple वाला वाक्य चुनें।",
+        "optionsEn": ["I eat", "I ate", "I will eat", "I am eating"],
+        "optionsHi": ["मैं खाता हूँ", "मैंने खाया", "मैं खाऊँगा", "मैं खा रहा हूँ"],
+        "correctIndex": 2,
+        "explanationEn": "Will + base verb shows future.",
+        "explanationHi": "Will + base verb भविष्य दिखाता है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "In future simple, after 'will' we use ____ form of verb.",
+        "questionHi": "Future simple में 'will' के बाद verb का ____ रूप आता है।",
+        "optionsEn": ["base", "past", "-ing", "-s"],
+        "optionsHi": ["base", "past", "-ing", "-s"],
+        "correctIndex": 0,
+        "explanationEn": "Will go, will eat, will write.",
+        "explanationHi": "Will go, will eat, will write।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Which word signals future?",
+        "questionHi": "कौन सा शब्द future दिखाता है?",
+        "optionsEn": ["did", "will", "was", "were"],
+        "optionsHi": ["किया", "will", "था", "थे"],
+        "correctIndex": 1,
+        "explanationEn": "Will is a common future marker.",
+        "explanationHi": "Will भविष्य का सामान्य संकेत है।"
+      }
+    ]
+  },
+  {
+    "id": "i-07a-present-continuous",
+    "level": "intermediate",
+    "topic": { "en": "Present Continuous", "hi": "Present Continuous (वर्तमान जारी काल)" },
+    "explanation": {
+      "en": "Present continuous: am/is/are + V-ing. Use it for actions happening now or temporary actions.",
+      "hi": "Present continuous: am/is/are + V-ing। इसका उपयोग अभी चल रहे या temporary काम के लिए होता है।"
+    },
+    "examples": [
+      { "en": "I am reading a book.", "hi": "मैं किताब पढ़ रहा/रही हूँ।" },
+      { "en": "She is cooking food.", "hi": "वह खाना बना रही है।" },
+      { "en": "They are playing cricket.", "hi": "वे क्रिकेट खेल रहे हैं।" },
+      { "en": "It is raining.", "hi": "बारिश हो रही है।" },
+      { "en": "We are learning English.", "hi": "हम अंग्रेज़ी सीख रहे हैं।" }
+    ],
+    "illustrationKey": "present-continuous",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: She ____ studying now. (is/are)", "promptHi": "भरें: She ____ studying now. (is/are)", "answer": "is" },
+      { "id": "p2", "promptEn": "Fill: They ____ playing. (am/are)", "promptHi": "भरें: They ____ playing. (am/are)", "answer": "are" },
+      { "id": "p3", "promptEn": "Write the -ing form of 'write'", "promptHi": "'write' का -ing form लिखें", "answer": "writing" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Present continuous structure is:",
+        "questionHi": "Present continuous की structure है:",
+        "optionsEn": ["am/is/are + V-ing", "has/have + V3", "V2", "will + V1"],
+        "optionsHi": ["am/is/are + V-ing", "has/have + V3", "V2", "will + V1"],
+        "correctIndex": 0,
+        "explanationEn": "Use be-verb + -ing form.",
+        "explanationHi": "Be-verb + -ing form का उपयोग होता है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Choose the correct sentence.",
+        "questionHi": "सही वाक्य चुनें।",
+        "optionsEn": ["He is play.", "He is playing.", "He plays now.", "He played now."],
+        "optionsHi": ["He is play.", "He is playing.", "He plays now.", "He played now."],
+        "correctIndex": 1,
+        "explanationEn": "Be + V-ing: is playing.",
+        "explanationHi": "Be + V-ing: is playing।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Present continuous is often used for actions happening ____.",
+        "questionHi": "Present continuous अक्सर ____ चल रहे काम के लिए होता है।",
+        "optionsEn": ["now", "yesterday", "last year", "always"],
+        "optionsHi": ["अब", "कल", "पिछले साल", "हमेशा"],
+        "correctIndex": 0,
+        "explanationEn": "It commonly describes actions happening at the moment.",
+        "explanationHi": "यह अक्सर अभी हो रहे काम को बताता है।"
+      }
+    ]
+  },
+  {
+    "id": "i-07b-present-perfect-continuous",
+    "level": "intermediate",
+    "topic": { "en": "Present Perfect Continuous", "hi": "Present Perfect Continuous (वर्तमान पूर्ण जारी काल)" },
+    "explanation": {
+      "en": "Present perfect continuous: has/have been + V-ing. Use it for an action that started in the past and is continuing (or has just stopped) with duration (for/since).",
+      "hi": "Present perfect continuous: has/have been + V-ing। यह past में शुरू होकर अब तक चल रहे (या अभी-अभी रुके) काम की duration (for/since) बताता है।"
+    },
+    "examples": [
+      { "en": "I have been studying for two hours.", "hi": "मैं दो घंटे से पढ़ रहा/रही हूँ।" },
+      { "en": "She has been working since morning.", "hi": "वह सुबह से काम कर रही है।" },
+      { "en": "They have been waiting for ten minutes.", "hi": "वे दस मिनट से इंतज़ार कर रहे हैं।" },
+      { "en": "We have been living here since 2020.", "hi": "हम 2020 से यहाँ रह रहे हैं।" },
+      { "en": "It has been raining since evening.", "hi": "शाम से बारिश हो रही है।" }
+    ],
+    "illustrationKey": "present-perfect-continuous",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: I ____ been working. (have/has)", "promptHi": "भरें: I ____ been working. (have/has)", "answer": "have" },
+      { "id": "p2", "promptEn": "Fill: She has been ____ for an hour. (wait/waiting)", "promptHi": "भरें: She has been ____ for an hour. (wait/waiting)", "answer": "waiting" },
+      { "id": "p3", "promptEn": "Choose: 'since' is used with a ____ point. (time/duration)", "promptHi": "चुनें: 'since' ____ point के साथ आता है। (time/duration)", "answer": "time" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Present perfect continuous uses:",
+        "questionHi": "Present perfect continuous में होता है:",
+        "optionsEn": ["has/have been + V-ing", "am/is/are + V-ing", "had + V3", "V2"],
+        "optionsHi": ["has/have been + V-ing", "am/is/are + V-ing", "had + V3", "V2"],
+        "correctIndex": 0,
+        "explanationEn": "Have/has been + -ing form.",
+        "explanationHi": "Have/has been + -ing form।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Choose the correct sentence.",
+        "questionHi": "सही वाक्य चुनें।",
+        "optionsEn": ["She have been working.", "She has been working.", "She is been working.", "She has working."],
+        "optionsHi": ["She have been working.", "She has been working.", "She is been working.", "She has working."],
+        "correctIndex": 1,
+        "explanationEn": "She takes 'has': has been working.",
+        "explanationHi": "She के साथ 'has': has been working।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "We often use present perfect continuous with ____.",
+        "questionHi": "Present perfect continuous अक्सर ____ के साथ आता है।",
+        "optionsEn": ["for/since", "yesterday", "ago", "last"],
+        "optionsHi": ["for/since", "कल", "पहले", "पिछला"],
+        "correctIndex": 0,
+        "explanationEn": "For shows duration; since shows starting point.",
+        "explanationHi": "For duration दिखाता है; since starting point।"
+      }
+    ]
+  },
+  {
+    "id": "i-07c-past-continuous",
+    "level": "intermediate",
+    "topic": { "en": "Past Continuous", "hi": "Past Continuous (भूतकाल जारी)" },
+    "explanation": {
+      "en": "Past continuous: was/were + V-ing. Use it for an action in progress at a specific time in the past.",
+      "hi": "Past continuous: was/were + V-ing। यह past में किसी समय चल रहे काम के लिए होता है।"
+    },
+    "examples": [
+      { "en": "I was reading when he called.", "hi": "जब उसने कॉल किया तब मैं पढ़ रहा/रही था।" },
+      { "en": "She was cooking dinner.", "hi": "वह रात का खाना बना रही थी।" },
+      { "en": "They were playing in the park.", "hi": "वे पार्क में खेल रहे थे।" },
+      { "en": "It was raining heavily.", "hi": "तेज़ बारिश हो रही थी।" },
+      { "en": "We were studying at 8 pm.", "hi": "हम 8 बजे पढ़ रहे थे।" }
+    ],
+    "illustrationKey": "past-continuous",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: I ____ watching TV at 7. (was/were)", "promptHi": "भरें: I ____ watching TV at 7. (was/were)", "answer": "was" },
+      { "id": "p2", "promptEn": "Fill: They ____ playing. (was/were)", "promptHi": "भरें: They ____ playing. (was/were)", "answer": "were" },
+      { "id": "p3", "promptEn": "Write the -ing form of 'run'", "promptHi": "'run' का -ing form लिखें", "answer": "running" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Past continuous structure is:",
+        "questionHi": "Past continuous की structure है:",
+        "optionsEn": ["was/were + V-ing", "has/have + V3", "V1 + s/es", "will + V1"],
+        "optionsHi": ["was/were + V-ing", "has/have + V3", "V1 + s/es", "will + V1"],
+        "correctIndex": 0,
+        "explanationEn": "Use was/were with -ing form.",
+        "explanationHi": "Was/were के साथ -ing form।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Choose the correct sentence.",
+        "questionHi": "सही वाक्य चुनें।",
+        "optionsEn": ["They was playing.", "They were playing.", "They played now.", "They are playing yesterday."],
+        "optionsHi": ["They was playing.", "They were playing.", "They played now.", "They are playing yesterday."],
+        "correctIndex": 1,
+        "explanationEn": "They takes 'were': were playing.",
+        "explanationHi": "They के साथ 'were': were playing।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Past continuous is used for an action in progress in the ____.",
+        "questionHi": "Past continuous ____ में चल रहे काम के लिए होता है।",
+        "optionsEn": ["past", "present", "future", "always"],
+        "optionsHi": ["भूत", "वर्तमान", "भविष्य", "हमेशा"],
+        "correctIndex": 0,
+        "explanationEn": "It shows an ongoing past action.",
+        "explanationHi": "यह भूत में चल रहे काम को दिखाता है।"
+      }
+    ]
+  },
+  {
+    "id": "i-07d-past-perfect-continuous",
+    "level": "intermediate",
+    "topic": { "en": "Past Perfect Continuous", "hi": "Past Perfect Continuous (भूतकाल पूर्ण जारी)" },
+    "explanation": {
+      "en": "Past perfect continuous: had been + V-ing. Use it to show duration of an action before another past action/time.",
+      "hi": "Past perfect continuous: had been + V-ing। यह किसी दूसरे past time/action से पहले की duration दिखाता है।"
+    },
+    "examples": [
+      { "en": "I had been waiting for an hour before the bus came.", "hi": "बस आने से पहले मैं एक घंटे से इंतज़ार कर रहा/रही था।" },
+      { "en": "She had been working since morning before she left.", "hi": "वह जाने से पहले सुबह से काम कर रही थी।" },
+      { "en": "They had been playing for 30 minutes when it started raining.", "hi": "बारिश शुरू होने पर वे 30 मिनट से खेल रहे थे।" },
+      { "en": "We had been living there for years before we moved.", "hi": "हम शिफ्ट होने से पहले सालों से वहाँ रह रहे थे।" },
+      { "en": "He had been studying for two hours before the exam.", "hi": "परीक्षा से पहले वह दो घंटे से पढ़ रहा था।" }
+    ],
+    "illustrationKey": "past-perfect-continuous",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: They ____ been waiting. (had/has)", "promptHi": "भरें: They ____ been waiting. (had/has)", "answer": "had" },
+      { "id": "p2", "promptEn": "Fill: I had been ____ for 2 hours. (study/studying)", "promptHi": "भरें: I had been ____ for 2 hours. (study/studying)", "answer": "studying" },
+      { "id": "p3", "promptEn": "Choose: 'for' shows ____ (duration/time point)", "promptHi": "चुनें: 'for' ____ दिखाता है। (duration/time point)", "answer": "duration" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Past perfect continuous uses:",
+        "questionHi": "Past perfect continuous में होता है:",
+        "optionsEn": ["had been + V-ing", "was/were + V-ing", "has/have + V3", "will have + V3"],
+        "optionsHi": ["had been + V-ing", "was/were + V-ing", "has/have + V3", "will have + V3"],
+        "correctIndex": 0,
+        "explanationEn": "Had been + -ing form.",
+        "explanationHi": "Had been + -ing form।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Choose the correct sentence.",
+        "questionHi": "सही वाक्य चुनें।",
+        "optionsEn": ["He had been study.", "He had been studying.", "He has been studying.", "He was been studying."],
+        "optionsHi": ["He had been study.", "He had been studying.", "He has been studying.", "He was been studying."],
+        "correctIndex": 1,
+        "explanationEn": "Had been + V-ing: had been studying.",
+        "explanationHi": "Had been + V-ing: had been studying।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Past perfect continuous shows duration before another ____.",
+        "questionHi": "Past perfect continuous किसी दूसरे ____ से पहले की duration दिखाता है।",
+        "optionsEn": ["past action/time", "present action", "future plan", "noun"],
+        "optionsHi": ["past action/time", "present action", "future plan", "संज्ञा"],
+        "correctIndex": 0,
+        "explanationEn": "It describes how long something was happening before a past point.",
+        "explanationHi": "यह past point से पहले कितने समय तक काम चल रहा था, दिखाता है।"
+      }
+    ]
+  },
+  {
+    "id": "i-07e-future-continuous",
+    "level": "intermediate",
+    "topic": { "en": "Future Continuous", "hi": "Future Continuous (भविष्य जारी)" },
+    "explanation": {
+      "en": "Future continuous: will be + V-ing. Use it for an action that will be in progress at a specific future time.",
+      "hi": "Future continuous: will be + V-ing। यह भविष्य में किसी समय चल रहे काम के लिए होता है।"
+    },
+    "examples": [
+      { "en": "I will be traveling tomorrow.", "hi": "मैं कल यात्रा कर रहा/रही होऊँगा/होऊँगी।" },
+      { "en": "She will be studying at 8 pm.", "hi": "वह 8 बजे पढ़ रही होगी।" },
+      { "en": "They will be waiting for you.", "hi": "वे आपका इंतज़ार कर रहे होंगे।" },
+      { "en": "We will be working next week.", "hi": "हम अगले हफ्ते काम कर रहे होंगे।" },
+      { "en": "It will be raining in the evening.", "hi": "शाम को बारिश हो रही होगी।" }
+    ],
+    "illustrationKey": "future-continuous",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: I ____ be sleeping at 10 pm. (will/am)", "promptHi": "भरें: I ____ be sleeping at 10 pm. (will/am)", "answer": "will" },
+      { "id": "p2", "promptEn": "Fill: She will ____ studying. (be/been)", "promptHi": "भरें: She will ____ studying. (be/been)", "answer": "be" },
+      { "id": "p3", "promptEn": "Future continuous uses: will ____ + V-ing.", "promptHi": "Future continuous में: will ____ + V-ing होता है।", "answer": "be" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Future continuous structure is:",
+        "questionHi": "Future continuous की structure है:",
+        "optionsEn": ["will be + V-ing", "will + V2", "has/have + V3", "was/were + V-ing"],
+        "optionsHi": ["will be + V-ing", "will + V2", "has/have + V3", "was/were + V-ing"],
+        "correctIndex": 0,
+        "explanationEn": "Will be + -ing form.",
+        "explanationHi": "Will be + -ing form।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Choose the correct sentence.",
+        "questionHi": "सही वाक्य चुनें।",
+        "optionsEn": ["He will be study.", "He will be studying.", "He will studying.", "He will been studying."],
+        "optionsHi": ["He will be study.", "He will be studying.", "He will studying.", "He will been studying."],
+        "correctIndex": 1,
+        "explanationEn": "Will be + V-ing: will be studying.",
+        "explanationHi": "Will be + V-ing: will be studying।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Future continuous describes an action in progress at a future ____.",
+        "questionHi": "Future continuous भविष्य के ____ पर चल रहा काम बताता है।",
+        "optionsEn": ["time", "place", "noun", "adjective"],
+        "optionsHi": ["समय", "स्थान", "संज्ञा", "विशेषण"],
+        "correctIndex": 0,
+        "explanationEn": "It focuses on a future time point.",
+        "explanationHi": "यह भविष्य के समय पर केंद्रित होता है।"
+      }
+    ]
+  },
+  {
+    "id": "i-07f-future-perfect",
+    "level": "intermediate",
+    "topic": { "en": "Future Perfect", "hi": "Future Perfect (भविष्य पूर्ण)" },
+    "explanation": {
+      "en": "Future perfect: will have + V3. Use it for an action that will be completed before a specific future time.",
+      "hi": "Future perfect: will have + V3। यह भविष्य के किसी समय से पहले पूरा होने वाला काम दिखाता है।"
+    },
+    "examples": [
+      { "en": "I will have finished by 6 pm.", "hi": "मैं 6 बजे तक पूरा कर चुका/चुकी होऊँगा/होऊँगी।" },
+      { "en": "She will have left before you arrive.", "hi": "तुम्हारे आने से पहले वह निकल चुकी होगी।" },
+      { "en": "They will have completed the project by next week.", "hi": "वे अगले हफ्ते तक प्रोजेक्ट पूरा कर चुके होंगे।" },
+      { "en": "We will have reached home by noon.", "hi": "हम दोपहर तक घर पहुँच चुके होंगे।" },
+      { "en": "He will have written the report by Monday.", "hi": "वह सोमवार तक रिपोर्ट लिख चुका होगा।" }
+    ],
+    "illustrationKey": "future-perfect",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: I will have ____ my work. (finish/finished)", "promptHi": "भरें: I will have ____ my work. (finish/finished)", "answer": "finished" },
+      { "id": "p2", "promptEn": "Fill: She will ____ completed it. (have/has)", "promptHi": "भरें: She will ____ completed it. (have/has)", "answer": "have" },
+      { "id": "p3", "promptEn": "Future perfect uses: will have + ____.", "promptHi": "Future perfect में: will have + ____ होता है।", "answer": "v3" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Future perfect structure is:",
+        "questionHi": "Future perfect की structure है:",
+        "optionsEn": ["will have + V3", "will be + V-ing", "has/have + V3", "had + V3"],
+        "optionsHi": ["will have + V3", "will be + V-ing", "has/have + V3", "had + V3"],
+        "correctIndex": 0,
+        "explanationEn": "Will have finished, will have gone, etc.",
+        "explanationHi": "Will have finished, will have gone, आदि।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Choose the correct sentence.",
+        "questionHi": "सही वाक्य चुनें।",
+        "optionsEn": ["He will have finish.", "He will have finished.", "He will has finished.", "He will have finishing."],
+        "optionsHi": ["He will have finish.", "He will have finished.", "He will has finished.", "He will have finishing."],
+        "correctIndex": 1,
+        "explanationEn": "After will have, use V3: finished.",
+        "explanationHi": "Will have के बाद V3: finished।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Future perfect often uses time markers like ____.",
+        "questionHi": "Future perfect में अक्सर ____ जैसे time markers आते हैं।",
+        "optionsEn": ["by", "now", "yesterday", "ago"],
+        "optionsHi": ["by", "अब", "कल", "पहले"],
+        "correctIndex": 0,
+        "explanationEn": "By 6 pm, by Monday, etc.",
+        "explanationHi": "By 6 pm, by Monday, आदि।"
+      }
+    ]
+  },
+  {
+    "id": "i-07g-future-perfect-continuous",
+    "level": "intermediate",
+    "topic": { "en": "Future Perfect Continuous", "hi": "Future Perfect Continuous (भविष्य पूर्ण जारी)" },
+    "explanation": {
+      "en": "Future perfect continuous: will have been + V-ing. Use it to show duration up to a specific point in the future (for/since).",
+      "hi": "Future perfect continuous: will have been + V-ing। यह भविष्य के किसी समय तक की duration (for/since) दिखाता है।"
+    },
+    "examples": [
+      { "en": "By 6 pm, I will have been studying for two hours.", "hi": "6 बजे तक मैं दो घंटे से पढ़ रहा/रही होऊँगा/होऊँगी।" },
+      { "en": "She will have been working here for five years by 2027.", "hi": "2027 तक वह यहाँ पाँच साल से काम कर रही होगी।" },
+      { "en": "They will have been traveling for a week by next Friday.", "hi": "अगले शुक्रवार तक वे एक हफ्ते से यात्रा कर रहे होंगे।" },
+      { "en": "We will have been waiting for 30 minutes by the time you come.", "hi": "तुम्हारे आने तक हम 30 मिनट से इंतज़ार कर रहे होंगे।" },
+      { "en": "He will have been living in Delhi for ten years by 2030.", "hi": "2030 तक वह दिल्ली में दस साल से रह रहा होगा।" }
+    ],
+    "illustrationKey": "future-perfect-continuous",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: I will have been ____ for 2 hours. (study/studying)", "promptHi": "भरें: I will have been ____ for 2 hours. (study/studying)", "answer": "studying" },
+      { "id": "p2", "promptEn": "Fill: She will have ____ waiting. (been/be)", "promptHi": "भरें: She will have ____ waiting. (been/be)", "answer": "been" },
+      { "id": "p3", "promptEn": "Future perfect continuous uses: will have been + ____.", "promptHi": "Future perfect continuous में: will have been + ____ होता है।", "answer": "v-ing" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Future perfect continuous uses:",
+        "questionHi": "Future perfect continuous में होता है:",
+        "optionsEn": ["will have been + V-ing", "will have + V3", "will be + V-ing", "has/have been + V-ing"],
+        "optionsHi": ["will have been + V-ing", "will have + V3", "will be + V-ing", "has/have been + V-ing"],
+        "correctIndex": 0,
+        "explanationEn": "Will have been + -ing form.",
+        "explanationHi": "Will have been + -ing form।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Choose the correct sentence.",
+        "questionHi": "सही वाक्य चुनें।",
+        "optionsEn": ["I will have been study.", "I will have been studying.", "I will been studying.", "I will have studying."],
+        "optionsHi": ["I will have been study.", "I will have been studying.", "I will been studying.", "I will have studying."],
+        "correctIndex": 1,
+        "explanationEn": "Will have been + V-ing: studying.",
+        "explanationHi": "Will have been + V-ing: studying।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Future perfect continuous shows duration up to a future ____.",
+        "questionHi": "Future perfect continuous भविष्य के ____ तक की duration दिखाता है।",
+        "optionsEn": ["time", "pronoun", "adjective", "place"],
+        "optionsHi": ["समय", "सर्वनाम", "विशेषण", "स्थान"],
+        "correctIndex": 0,
+        "explanationEn": "It focuses on a future time point.",
+        "explanationHi": "यह भविष्य के time point पर केंद्रित होता है।"
+      }
+    ]
+  },
+  {
+    "id": "i-08-modal-verbs",
+    "level": "intermediate",
+    "topic": { "en": "Modal Verbs (can, could, should, must)", "hi": "Modal Verbs (can, could, should, must)" },
+    "explanation": {
+      "en": "Modals show ability, permission, advice, or necessity. They are followed by the base verb.",
+      "hi": "Modals क्षमता, अनुमति, सलाह या आवश्यकता दिखाते हैं। इनके बाद base verb आता है।"
+    },
+    "examples": [
+      { "en": "I can swim.", "hi": "मैं तैर सकता/सकती हूँ।" },
+      { "en": "Could you help me?", "hi": "क्या आप मेरी मदद कर सकते हैं?" },
+      { "en": "You should study daily.", "hi": "आपको रोज़ पढ़ना चाहिए।" },
+      { "en": "You must wear a helmet.", "hi": "आपको हेलमेट पहनना ही चाहिए।" },
+      { "en": "May I come in?", "hi": "क्या मैं अंदर आ सकता/सकती हूँ?" }
+    ],
+    "illustrationKey": "modals",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: I ____ speak English. (can/cans)", "promptHi": "भरें: I ____ speak English. (can/cans)", "answer": "can" },
+      { "id": "p2", "promptEn": "Fill: You ____ drink water. (should/shoulds)", "promptHi": "भरें: You ____ drink water. (should/shoulds)", "answer": "should" },
+      { "id": "p3", "promptEn": "Fill: You ____ stop at red light. (must/musts)", "promptHi": "भरें: You ____ stop at red light. (must/musts)", "answer": "must" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which modal shows ability?",
+        "questionHi": "कौन सा modal क्षमता दिखाता है?",
+        "optionsEn": ["can", "must", "should", "would"],
+        "optionsHi": ["can", "must", "should", "would"],
+        "correctIndex": 0,
+        "explanationEn": "Can shows ability.",
+        "explanationHi": "Can क्षमता दिखाता है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "After a modal, we use the ____ verb.",
+        "questionHi": "Modal के बाद ____ verb आता है।",
+        "optionsEn": ["base", "past", "-ing", "-s"],
+        "optionsHi": ["base", "past", "-ing", "-s"],
+        "correctIndex": 0,
+        "explanationEn": "Can go (not can goes).",
+        "explanationHi": "Can go (can goes नहीं)।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Which sentence gives advice?",
+        "questionHi": "कौन सा वाक्य सलाह देता है?",
+        "optionsEn": ["You should sleep early.", "You must stop.", "I can run.", "May I come in?"],
+        "optionsHi": ["आपको जल्दी सोना चाहिए।", "आपको रुकना ही होगा।", "मैं दौड़ सकता हूँ।", "क्या मैं अंदर आ सकता हूँ?"],
+        "correctIndex": 0,
+        "explanationEn": "Should is used for advice.",
+        "explanationHi": "Should सलाह के लिए होता है।"
+      }
+    ]
+  },
+  {
+    "id": "i-09-types-of-sentences",
+    "level": "intermediate",
+    "topic": { "en": "Types of Sentences", "hi": "वाक्यों के प्रकार" },
+    "explanation": {
+      "en": "Common types: Assertive/Declarative, Interrogative (question), Imperative (order/request), Exclamatory.",
+      "hi": "मुख्य प्रकार: Assertive/Declarative, Interrogative (प्रश्न), Imperative (आदेश/अनुरोध), Exclamatory (भाव)।"
+    },
+    "examples": [
+      { "en": "He is a student. (assertive)", "hi": "वह छात्र है। (assertive)" },
+      { "en": "Are you ready? (interrogative)", "hi": "क्या आप तैयार हैं? (interrogative)" },
+      { "en": "Please sit down. (imperative)", "hi": "कृपया बैठ जाइए। (imperative)" },
+      { "en": "What a beautiful day! (exclamatory)", "hi": "क्या सुंदर दिन है! (exclamatory)" },
+      { "en": "Close the door. (imperative)", "hi": "दरवाज़ा बंद करो। (imperative)" }
+    ],
+    "illustrationKey": "sentence-types",
+    "practice": [
+      { "id": "p1", "promptEn": "Type of sentence: 'Do you like tea?'", "promptHi": "वाक्य का प्रकार: 'Do you like tea?'", "answer": "interrogative" },
+      { "id": "p2", "promptEn": "Type of sentence: 'Please help me.'", "promptHi": "वाक्य का प्रकार: 'Please help me.'", "answer": "imperative" },
+      { "id": "p3", "promptEn": "Type of sentence: 'Wow! This is great!'", "promptHi": "वाक्य का प्रकार: 'Wow! This is great!'", "answer": "exclamatory" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which is an interrogative sentence?",
+        "questionHi": "कौन सा interrogative वाक्य है?",
+        "optionsEn": ["I am fine.", "Open the book.", "How are you?", "What a day!"],
+        "optionsHi": ["मैं ठीक हूँ।", "किताब खोलो।", "आप कैसे हैं?", "क्या दिन है!"],
+        "correctIndex": 2,
+        "explanationEn": "Questions are interrogative.",
+        "explanationHi": "प्रश्न वाले वाक्य interrogative होते हैं।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Which type gives an order/request?",
+        "questionHi": "कौन सा प्रकार आदेश/अनुरोध देता है?",
+        "optionsEn": ["imperative", "assertive", "interrogative", "exclamatory"],
+        "optionsHi": ["imperative", "assertive", "interrogative", "exclamatory"],
+        "correctIndex": 0,
+        "explanationEn": "Imperative is used for commands/requests.",
+        "explanationHi": "Imperative आदेश/अनुरोध के लिए।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "'He is late.' is ____.",
+        "questionHi": "'He is late.' ____ है।",
+        "optionsEn": ["assertive", "interrogative", "imperative", "exclamatory"],
+        "optionsHi": ["assertive", "interrogative", "imperative", "exclamatory"],
+        "correctIndex": 0,
+        "explanationEn": "It is a statement.",
+        "explanationHi": "यह एक कथन है।"
+      }
+    ]
+  },
+  {
+    "id": "i-10-wh-questions",
+    "level": "intermediate",
+    "topic": { "en": "WH-Questions (what/where/when/why/who/how)", "hi": "WH-Questions (क्या/कहाँ/कब/क्यों/कौन/कैसे)" },
+    "explanation": {
+      "en": "WH-words are used to ask specific information: what, where, when, why, who, how.",
+      "hi": "WH-words से खास जानकारी पूछते हैं: what, where, when, why, who, how।"
+    },
+    "examples": [
+      { "en": "What is your name?", "hi": "आपका नाम क्या है?" },
+      { "en": "Where do you live?", "hi": "आप कहाँ रहते हैं?" },
+      { "en": "When will you come?", "hi": "आप कब आएँगे?" },
+      { "en": "Why are you late?", "hi": "आप देर से क्यों हैं?" },
+      { "en": "Who is your teacher?", "hi": "आपके शिक्षक कौन हैं?" }
+    ],
+    "illustrationKey": "wh-questions",
+    "practice": [
+      { "id": "p1", "promptEn": "Fill: ____ do you live?", "promptHi": "भरें: ____ do you live?", "answer": "where" },
+      { "id": "p2", "promptEn": "Fill: ____ is your birthday?", "promptHi": "भरें: ____ is your birthday?", "answer": "when" },
+      { "id": "p3", "promptEn": "Fill: ____ are you sad?", "promptHi": "भरें: ____ are you sad?", "answer": "why" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which WH-word asks about place?",
+        "questionHi": "कौन सा WH-word स्थान के बारे में पूछता है?",
+        "optionsEn": ["when", "where", "why", "who"],
+        "optionsHi": ["कब", "कहाँ", "क्यों", "कौन"],
+        "correctIndex": 1,
+        "explanationEn": "Where asks about place.",
+        "explanationHi": "Where स्थान पूछता है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Which WH-word asks about reason?",
+        "questionHi": "कौन सा WH-word कारण पूछता है?",
+        "optionsEn": ["why", "what", "who", "how"],
+        "optionsHi": ["क्यों", "क्या", "कौन", "कैसे"],
+        "correctIndex": 0,
+        "explanationEn": "Why asks for reason.",
+        "explanationHi": "Why कारण पूछता है।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Choose: ____ is your name?",
+        "questionHi": "चुनें: ____ is your name?",
+        "optionsEn": ["What", "Where", "When", "Why"],
+        "optionsHi": ["What", "Where", "When", "Why"],
+        "correctIndex": 0,
+        "explanationEn": "What asks about thing/name.",
+        "explanationHi": "What नाम/चीज़ पूछता है।"
+      }
+    ]
+  },
+  {
+    "id": "i-11-punctuation",
+    "level": "intermediate",
+    "topic": { "en": "Punctuation Basics", "hi": "विराम-चिह्न (Punctuation)" },
+    "explanation": {
+      "en": "Punctuation helps clarity: period (.), comma (,), question mark (?), exclamation (!), apostrophe ('), quotes (\"\").",
+      "hi": "Punctuation से वाक्य साफ़ होता है: (.), (,), (?), (!), ('), (\"\")."
+    },
+    "examples": [
+      { "en": "I am fine.", "hi": "मैं ठीक हूँ।" },
+      { "en": "Hello, Riya.", "hi": "हेलो, रिया।" },
+      { "en": "Are you ready?", "hi": "क्या आप तैयार हैं?" },
+      { "en": "Wow! Great job!", "hi": "वाह! बढ़िया!" },
+      { "en": "Ravi's bag is new.", "hi": "रवि का बैग नया है।" }
+    ],
+    "illustrationKey": "punctuation",
+    "practice": [
+      { "id": "p1", "promptEn": "Which mark ends a question? (write name)", "promptHi": "प्रश्न के अंत में कौन सा चिन्ह? (नाम लिखें)", "answer": "question" },
+      { "id": "p2", "promptEn": "Add comma: Hello ____ Ravi", "promptHi": "comma लगाएँ: Hello ____ Ravi", "answer": "," },
+      { "id": "p3", "promptEn": "Write the mark for excitement: ! or ?", "promptHi": "उत्साह के लिए चिन्ह लिखें: ! या ?", "answer": "!" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which mark is used for questions?",
+        "questionHi": "प्रश्न के लिए कौन सा चिन्ह?",
+        "optionsEn": [".", ",", "?", "!"],
+        "optionsHi": [".", ",", "?", "!"],
+        "correctIndex": 2,
+        "explanationEn": "Questions end with a question mark (?).",
+        "explanationHi": "प्रश्न का अंत (?) से होता है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Choose the correct punctuation: Wow____",
+        "questionHi": "सही punctuation चुनें: Wow____",
+        "optionsEn": [".", "?", "!", ","],
+        "optionsHi": [".", "?", "!", ","],
+        "correctIndex": 2,
+        "explanationEn": "Exclamation mark shows strong feeling.",
+        "explanationHi": "Exclamation (!) भावना दिखाता है।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "A comma is often used to separate items in a ____.",
+        "questionHi": "Comma अक्सर सूची (____) में items अलग करता है।",
+        "optionsEn": ["list", "verb", "tense", "pronoun"],
+        "optionsHi": ["list", "verb", "tense", "pronoun"],
+        "correctIndex": 0,
+        "explanationEn": "Example: apples, bananas, oranges.",
+        "explanationHi": "उदाहरण: apples, bananas, oranges।"
+      }
+    ]
+  },
+  {
+    "id": "i-12-active-passive-intro",
+    "level": "intermediate",
+    "topic": { "en": "Active & Passive Voice (Intro)", "hi": "Active & Passive Voice (परिचय)" },
+    "explanation": {
+      "en": "In active voice, the subject does the action. In passive voice, the object receives the action.",
+      "hi": "Active voice में subject काम करता है। Passive voice में object पर काम होता है।"
+    },
+    "examples": [
+      { "en": "Active: Ram writes a letter.", "hi": "Active: राम पत्र लिखता है।" },
+      { "en": "Passive: A letter is written by Ram.", "hi": "Passive: राम द्वारा पत्र लिखा जाता है।" },
+      { "en": "Active: She cooks food.", "hi": "Active: वह खाना पकाती है।" },
+      { "en": "Passive: Food is cooked by her.", "hi": "Passive: उसके द्वारा खाना पकाया जाता है।" },
+      { "en": "Active: They play cricket.", "hi": "Active: वे क्रिकेट खेलते हैं।" }
+    ],
+    "illustrationKey": "voice-intro",
+    "practice": [
+      { "id": "p1", "promptEn": "Voice: 'A letter is written by him.'", "promptHi": "Voice बताइए: 'A letter is written by him.'", "answer": "passive" },
+      { "id": "p2", "promptEn": "Voice: 'She sings a song.'", "promptHi": "Voice बताइए: 'She sings a song.'", "answer": "active" },
+      { "id": "p3", "promptEn": "Fill: Passive often uses 'be' + ____.", "promptHi": "भरें: Passive में अक्सर 'be' + ____ होता है।", "answer": "v3" }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "questionEn": "Which sentence is passive?",
+        "questionHi": "कौन सा वाक्य passive है?",
+        "optionsEn": ["He writes a letter.", "A letter is written by him.", "He is writing a letter.", "He wrote a letter."],
+        "optionsHi": ["वह पत्र लिखता है।", "उसके द्वारा पत्र लिखा जाता है।", "वह पत्र लिख रहा है।", "उसने पत्र लिखा।"],
+        "correctIndex": 1,
+        "explanationEn": "Passive focuses on the receiver of action.",
+        "explanationHi": "Passive में काम पाने वाला (object) केंद्र में होता है।"
+      },
+      {
+        "id": "q2",
+        "questionEn": "Active voice focuses on the ____.",
+        "questionHi": "Active voice ____ पर ध्यान देता है।",
+        "optionsEn": ["doer", "object", "place", "time"],
+        "optionsHi": ["कर्ता", "कर्म", "स्थान", "समय"],
+        "correctIndex": 0,
+        "explanationEn": "Active emphasizes the doer (subject).",
+        "explanationHi": "Active में कर्ता (subject) प्रमुख होता है।"
+      },
+      {
+        "id": "q3",
+        "questionEn": "Passive commonly uses which verb form?",
+        "questionHi": "Passive में कौन सा verb form आम है?",
+        "optionsEn": ["V1", "V2", "V3", "-ing"],
+        "optionsHi": ["V1", "V2", "V3", "-ing"],
+        "correctIndex": 2,
+        "explanationEn": "Passive: be + V3 (past participle).",
+        "explanationHi": "Passive: be + V3 (past participle)।"
+      }
+    ]
+  }
+]

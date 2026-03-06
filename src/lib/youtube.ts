@@ -1,0 +1,38 @@
+const VIDEO_ID_BY_ILLUSTRATION_KEY: Record<string, string> = {
+  alphabet: 'ChqnN3cKzXQ',
+  'parts-of-speech': '0l69KEx7GQo',
+  noun: 'dI8il9qmzzc',
+  pronoun: 'c4300UidkFg',
+  verb: 'sCiG6rlk2Bc',
+  adjective: 'LiYxv0vudmc',
+  adverb: '94aFcx6oliY',
+  preposition: 'XzkbcWh8s4w',
+  conjunction: '3qbfcHiUrcI',
+  interjection: 'jPZfOn98dAg',
+  sentences: 'urr55rAreWc',
+  'sentence-types': 'WYnpf44ojFU',
+  articles: 'RDkx4J__-QY',
+  plural: 'L4B7XxuJO6A',
+  gender: 'E3rkNS9Fm6A',
+  'tense-intro': 'mScixcyubUY',
+  'present-simple': 'dAz3UmAKvDU',
+  'past-simple': 'dmJrYbDjxQY',
+  'future-simple': 'n14zCZAvSjI',
+  modals: '5Dq7lEw7CKM',
+  'wh-questions': 'x_4AjSwTXdc',
+  punctuation: '4IqlgGLV1XQ',
+  'voice-intro': 'W1_IRU6zx9g',
+  'passive-advanced': 'N7uvEllP5Jg',
+  agreement: 'LfJPA8GwTdk',
+  'present-perfect': 'XySNOXSiBMo',
+  'past-perfect': 'Jjj5-KnpdIQ',
+  'reported-speech': 'eplQBhE0-Hg',
+  conditionals: '4H3-2smRJJY',
+  clauses: 'FRp5Ufi2t0k',
+  'gerund-infinitive': '-s1gu725tA4',
+  parallelism: 'fojkyh3qfHI',
+}
+
+export function getYoutubeVideoIdForIllustrationKey(illustrationKey: string): string | null {
+  return VIDEO_ID_BY_ILLUSTRATION_KEY[illustrationKey] ?? null
+}
